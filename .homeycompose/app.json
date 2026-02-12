@@ -1,0 +1,29 @@
+{
+  "id": "com.kaoh.lgmodbuss",
+  "version": "1.0.0",
+  "compatibility": ">=12.4.0",
+  "sdk": 3,
+  "platforms": [
+    "local"
+  ],
+  "name": {
+    "en": "LG Modbuss AWHP"
+  },
+  "description": {
+    "en": "Control your LG AWHP using local Modbuss protocol."
+  },
+  "brandColor": "#A50034",
+  "category": [
+    "appliances"
+  ],
+  "permissions": [],
+  "images": {
+    "small": "/assets/images/small.png",
+    "large": "/assets/images/large.png",
+    "xlarge": "/assets/images/xlarge.png"
+  },
+  "author": {
+    "name": "Vincent Boer",
+    "email": "vincent@vdboer.nl"
+  }
+}

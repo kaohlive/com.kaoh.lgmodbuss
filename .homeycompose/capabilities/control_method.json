@@ -1,0 +1,38 @@
+{
+  "type": "enum",
+  "title": {
+    "en": "Control Method",
+    "nl": "Regelmethode"
+  },
+  "desc": {
+    "en": "Temperature control method",
+    "nl": "Temperatuur regelmethode"
+  },
+  "values": [
+    {
+      "id": "water_outlet",
+      "title": {
+        "en": "Water outlet temp.",
+        "nl": "Wateruitlaat temp."
+      }
+    },
+    {
+      "id": "water_inlet",
+      "title": {
+        "en": "Water inlet temp.",
+        "nl": "Waterinlaat temp."
+      }
+    },
+    {
+      "id": "room_air",
+      "title": {
+        "en": "Room air temp.",
+        "nl": "Kamerlucht temp."
+      }
+    }
+  ],
+  "getable": true,
+  "setable": true,
+  "uiComponent": "picker",
+  "insights": true
+}

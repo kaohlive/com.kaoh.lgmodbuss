@@ -1,0 +1,4802 @@
+{
+  "sha": "73b9e8693395686ef5975286dd24e1892221d8b7",
+  "url": "https://api.github.com/repos/athombv/node-homey-lib/git/trees/73b9e8693395686ef5975286dd24e1892221d8b7",
+  "tree": [
+    {
+      "path": ".editorconfig",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ca7ca3ec97fbd000eb45210ba08cdb2b2d94c14e",
+      "size": 54,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/ca7ca3ec97fbd000eb45210ba08cdb2b2d94c14e"
+    },
+    {
+      "path": ".eslintignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1b431255919df841eb2d6c84f4f7a3fb46f06cb6",
+      "size": 32,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/1b431255919df841eb2d6c84f4f7a3fb46f06cb6"
+    },
+    {
+      "path": ".eslintrc.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8893149245ce0ed84a48856b4a1ad541df3171ba",
+      "size": 24,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/8893149245ce0ed84a48856b4a1ad541df3171ba"
+    },
+    {
+      "path": ".github",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "cfbda113207cd3c2d2f73df24dbb569365d95c5c",
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/trees/cfbda113207cd3c2d2f73df24dbb569365d95c5c"
+    },
+    {
+      "path": ".github/workflows",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "f0b08d7d92dd12b880c9935d028a5d504205303b",
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/trees/f0b08d7d92dd12b880c9935d028a5d504205303b"
+    },
+    {
+      "path": ".github/workflows/apply_locales.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3f43bfefb900074ecb7aacf625b1c56569708bcd",
+      "size": 2102,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/3f43bfefb900074ecb7aacf625b1c56569708bcd"
+    },
+    {
+      "path": ".github/workflows/deploy.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3c698ff5f0975e6d3610cfac1867e77cd054afb1",
+      "size": 8139,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/3c698ff5f0975e6d3610cfac1867e77cd054afb1"
+    },
+    {
+      "path": ".github/workflows/generate_locales.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7fabc6aae6d0694b46d6e5a5891e9a32ab3b6969",
+      "size": 2039,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/7fabc6aae6d0694b46d6e5a5891e9a32ab3b6969"
+    },
+    {
+      "path": ".github/workflows/static.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f62d1efb0f01a1688b609b2592ad2de5165a5f7f",
+      "size": 1256,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/f62d1efb0f01a1688b609b2592ad2de5165a5f7f"
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "24fa25a52d5d2815515c9371b43c5cef8c88a0eb",
+      "size": 1749,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/24fa25a52d5d2815515c9371b43c5cef8c88a0eb"
+    },
+    {
+      "path": ".gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "69c6a346ca71ca9eb82d842431a2320ecbfd7f80",
+      "size": 40,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/69c6a346ca71ca9eb82d842431a2320ecbfd7f80"
+    },
+    {
+      "path": ".idea",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "e9895db27cbfd5a2ba39bf861cfebabe2bd8860a",
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/trees/e9895db27cbfd5a2ba39bf861cfebabe2bd8860a"
+    },
+    {
+      "path": ".idea/misc.xml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "28a804d8932aba40f168fd757a74cb718a955a1a",
+      "size": 174,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/28a804d8932aba40f168fd757a74cb718a955a1a"
+    },
+    {
+      "path": ".idea/modules.xml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "156ee7553e3cdaa73f762847ab312c866b239659",
+      "size": 280,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/156ee7553e3cdaa73f762847ab312c866b239659"
+    },
+    {
+      "path": ".idea/node-homey-lib.iml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "24643cc37449b4bde54411a80b8ed61258225e34",
+      "size": 458,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/24643cc37449b4bde54411a80b8ed61258225e34"
+    },
+    {
+      "path": ".idea/vcs.xml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "94a25f7f4cb416c083d265558da75d457237d671",
+      "size": 180,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/94a25f7f4cb416c083d265558da75d457237d671"
+    },
+    {
+      "path": ".npmignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "380c83b1fa86ef16e7e3710caacf5f0dcf566363",
+      "size": 19,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/380c83b1fa86ef16e7e3710caacf5f0dcf566363"
+    },
+    {
+      "path": "CODE_OF_CONDUCT.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c332dc238b15e7a7a52d03ddd1e9bcb43b9fb64e",
+      "size": 3175,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/c332dc238b15e7a7a52d03ddd1e9bcb43b9fb64e"
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1319dd9c94fedc42ae8fb41af5a9a67aa9df9dce",
+      "size": 2871,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/1319dd9c94fedc42ae8fb41af5a9a67aa9df9dce"
+    },
+    {
+      "path": "LICENSE",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9cecc1d4669ee8af2ca727a5d8cde10cd8b2d7cc",
+      "size": 35141,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/9cecc1d4669ee8af2ca727a5d8cde10cd8b2d7cc"
+    },
+    {
+      "path": "README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9632a2c4472a4d71e76fcb29c1d2d575c16d4d31",
+      "size": 1875,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/9632a2c4472a4d71e76fcb29c1d2d575c16d4d31"
+    },
+    {
+      "path": "assets",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "2dcb7ed6ae3de98126e78b835dffb6522f7a8d80",
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/trees/2dcb7ed6ae3de98126e78b835dffb6522f7a8d80"
+    },
+    {
+      "path": "assets/app",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "2f21500708ab63bbcf687facd401624586f0a06a",
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/trees/2f21500708ab63bbcf687facd401624586f0a06a"
+    },
+    {
+      "path": "assets/app/permissions.json",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "4264a1e14be08066a30f13e58c7aed99abff4c3b",
+      "size": 10161,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/4264a1e14be08066a30f13e58c7aed99abff4c3b"
+    },
+    {
+      "path": "assets/app/permissions",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "1b1c7791499ec6e60431b4f260534f6dd98a4c25",
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/trees/1b1c7791499ec6e60431b4f260534f6dd98a4c25"
+    },
+    {
+      "path": "assets/app/permissions/homey-manager-api.svg",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "5dcac788ab69514fd33c00b100b2afbb5ea081b3",
+      "size": 1816,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/5dcac788ab69514fd33c00b100b2afbb5ea081b3"
+    },
+    {
+      "path": "assets/app/permissions/homey-manager-devices.svg",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "95e125f6a26f34be01e5cdb8cd5c0cbf738fffe1",
+      "size": 1340,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/95e125f6a26f34be01e5cdb8cd5c0cbf738fffe1"
+    },
+    {
+      "path": "assets/app/permissions/homey-manager-geolocation.svg",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "1301ea048f9f98427b61cae3c5a015156bf19c31",
+      "size": 2286,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/1301ea048f9f98427b61cae3c5a015156bf19c31"
+    },
+    {
+      "path": "assets/app/permissions/homey-manager-insights.svg",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "337b5fbb3afa7f680ec35fafac3dbc102e42509b",
+      "size": 3137,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/337b5fbb3afa7f680ec35fafac3dbc102e42509b"
+    },
+    {
+      "path": "assets/app/permissions/homey-manager-ledring.svg",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "3edcbfa8fc73adb6fde884574fb3f92d31bbd663",
+      "size": 7932,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/3edcbfa8fc73adb6fde884574fb3f92d31bbd663"
+    },
+    {
+      "path": "assets/app/permissions/homey-manager-media.svg",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "32df57b4ef60c27e2d357572fa6a712ea5c85da5",
+      "size": 1130,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/32df57b4ef60c27e2d357572fa6a712ea5c85da5"
+    },
+    {
+      "path": "assets/app/permissions/homey-manager-speech-input.svg",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "abdc76d23f8eb188fcc9fa0a2d6e063bdd380b2c",
+      "size": 1030,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/abdc76d23f8eb188fcc9fa0a2d6e063bdd380b2c"
+    },
+    {
+      "path": "assets/app/permissions/homey-manager-speech-output.svg",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "455f153727eb039a4e0716d37106f32eabca581e",
+      "size": 1049,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/455f153727eb039a4e0716d37106f32eabca581e"
+    },
+    {
+      "path": "assets/app/permissions/homey-wireless-433.svg",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "44b176446f1f8718a38d6d72b190edb3420b5997",
+      "size": 871,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/44b176446f1f8718a38d6d72b190edb3420b5997"
+    },
+    {
+      "path": "assets/app/permissions/homey-wireless-868.svg",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "44b176446f1f8718a38d6d72b190edb3420b5997",
+      "size": 871,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/44b176446f1f8718a38d6d72b190edb3420b5997"
+    },
+    {
+      "path": "assets/app/permissions/homey-wireless-ble.svg",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "0d7bb4f631ef3f41e4116f4612513c74c7ab5284",
+      "size": 649,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/0d7bb4f631ef3f41e4116f4612513c74c7ab5284"
+    },
+    {
+      "path": "assets/app/permissions/homey-wireless-ir.svg",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "20bbc034f6f7f5c6b798bb04d3e51236f4274f64",
+      "size": 5040,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/20bbc034f6f7f5c6b798bb04d3e51236f4274f64"
+    },
+    {
+      "path": "assets/app/permissions/homey-wireless-nfc.svg",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "63337217ce20320cc6e6fdc5255f367bc7cf0c08",
+      "size": 1337,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/63337217ce20320cc6e6fdc5255f367bc7cf0c08"
+    },
+    {
+      "path": "assets/app/permissions/homey-wireless-zigbee.svg",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "8b44b297548f90e7580ff54f18de6b4a88cb4155",
+      "size": 1028,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/8b44b297548f90e7580ff54f18de6b4a88cb4155"
+    },
+    {
+      "path": "assets/app/permissions/homey-wireless-zwave.svg",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "e5724ac7f23ea37a18098b7bc05910ea272bd32b",
+      "size": 909,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/e5724ac7f23ea37a18098b7bc05910ea272bd32b"
+    },
+    {
+      "path": "assets/app/schema.json",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "bcf07cadb44615f0b721f00261fce10b51041755",
+      "size": 40814,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/bcf07cadb44615f0b721f00261fce10b51041755"
+    },
+    {
+      "path": "assets/capability",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "fcf410559dcdaa1294f455ea5f69f7f185deb568",
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/trees/fcf410559dcdaa1294f455ea5f69f7f185deb568"
+    },
+    {
+      "path": "assets/capability/capabilities.json",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "4997224559f664c9bf4822179741e67fed146152",
+      "size": 3631,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/4997224559f664c9bf4822179741e67fed146152"
+    },
+    {
+      "path": "assets/capability/capabilities",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "fd1e545185ffac13bf2f1f454e7f4fedbdf22c57",
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/trees/fd1e545185ffac13bf2f1f454e7f4fedbdf22c57"
+    },
+    {
+      "path": "assets/capability/capabilities/alarm_battery.json",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "670815a6c8e8db35fcf6df856c2dae849b7851da",
+      "size": 5136,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/670815a6c8e8db35fcf6df856c2dae849b7851da"
+    },
+    {
+      "path": "assets/capability/capabilities/alarm_bin_full.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2cb0f019d6c7ebf4bdd7a9cc48890ee8088d168a",
+      "size": 4921,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/2cb0f019d6c7ebf4bdd7a9cc48890ee8088d168a"
+    },
+    {
+      "path": "assets/capability/capabilities/alarm_bin_missing.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ef08bb7670d9d575f33d49d3389a21f79d403946",
+      "size": 4963,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/ef08bb7670d9d575f33d49d3389a21f79d403946"
+    },
+    {
+      "path": "assets/capability/capabilities/alarm_cleaning_pad_missing.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0859b5e6670b46cefae818ff189a10c97999659a",
+      "size": 5576,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/0859b5e6670b46cefae818ff189a10c97999659a"
+    },
+    {
+      "path": "assets/capability/capabilities/alarm_co.json",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "a2dd12c1306f4e6866a1f4c2245fe8fa7d0773c7",
+      "size": 4853,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/a2dd12c1306f4e6866a1f4c2245fe8fa7d0773c7"
+    },
+    {
+      "path": "assets/capability/capabilities/alarm_co2.json",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "02b9a2b74f16d7ebe5bec81ffc417299a0cbee90",
+      "size": 4981,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/02b9a2b74f16d7ebe5bec81ffc417299a0cbee90"
+    },
+    {
+      "path": "assets/capability/capabilities/alarm_cold.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b8ba55a5eebd35435580443f2b1943647f0f563a",
+      "size": 4886,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/b8ba55a5eebd35435580443f2b1943647f0f563a"
+    },
+    {
+      "path": "assets/capability/capabilities/alarm_connectivity.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6def9fe4524a66a22857408ce4930c095f02210d",
+      "size": 4157,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/6def9fe4524a66a22857408ce4930c095f02210d"
+    },
+    {
+      "path": "assets/capability/capabilities/alarm_contact.json",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "a21eeb4202d2f2212363744e7a4e7ffecbb1dc82",
+      "size": 5099,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/a21eeb4202d2f2212363744e7a4e7ffecbb1dc82"
+    },
+    {
+      "path": "assets/capability/capabilities/alarm_door_fault.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b6eadd143ac1239b35f283200d715d683f049b94",
+      "size": 5604,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/b6eadd143ac1239b35f283200d715d683f049b94"
+    },
+    {
+      "path": "assets/capability/capabilities/alarm_fire.json",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "88f7267e601d0d7033bbd5299da9b29bc88129e6",
+      "size": 4795,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/88f7267e601d0d7033bbd5299da9b29bc88129e6"
+    },
+    {
+      "path": "assets/capability/capabilities/alarm_freeze_risk.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8bf6fa4490f4defc3d30349ba542b95b871de6f0",
+      "size": 6343,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/8bf6fa4490f4defc3d30349ba542b95b871de6f0"
+    },
+    {
+      "path": "assets/capability/capabilities/alarm_gas.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4e719026a712464180803e3b75018e99c0c877b9",
+      "size": 4659,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/4e719026a712464180803e3b75018e99c0c877b9"
+    },
+    {
+      "path": "assets/capability/capabilities/alarm_generic.json",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "9113a66f0b66f0499ead919de71c932b0ef35be6",
+      "size": 4540,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/9113a66f0b66f0499ead919de71c932b0ef35be6"
+    },
+    {
+      "path": "assets/capability/capabilities/alarm_heat.json",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "0766566339e6fe846a8899d2d43906e6965b3bf5",
+      "size": 4917,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/0766566339e6fe846a8899d2d43906e6965b3bf5"
+    },
+    {
+      "path": "assets/capability/capabilities/alarm_light.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "404c8335b6d587ce30e3fefce2e6f7783a0a2ca5",
+      "size": 4773,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/404c8335b6d587ce30e3fefce2e6f7783a0a2ca5"
+    },
+    {
+      "path": "assets/capability/capabilities/alarm_lost.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f3531e8b459952a7740f9b5e3adab4a345815ba0",
+      "size": 4195,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/f3531e8b459952a7740f9b5e3adab4a345815ba0"
+    },
+    {
+      "path": "assets/capability/capabilities/alarm_moisture.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c6621816b91d8f2cb2b5602c2828e04b8bbba3db",
+      "size": 4931,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/c6621816b91d8f2cb2b5602c2828e04b8bbba3db"
+    },
+    {
+      "path": "assets/capability/capabilities/alarm_motion.json",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "340c3016e44e0142ac244e4148ec96b1a49d37bf",
+      "size": 4274,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/340c3016e44e0142ac244e4148ec96b1a49d37bf"
+    },
+    {
+      "path": "assets/capability/capabilities/alarm_night.json",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "8d942e3ec240525aa718afa2ccd8e5aec30050a1",
+      "size": 4402,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/8d942e3ec240525aa718afa2ccd8e5aec30050a1"
+    },
+    {
+      "path": "assets/capability/capabilities/alarm_noise.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d16db1918728016490fb5f25d5d17b1ebcb9b3b0",
+      "size": 4798,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/d16db1918728016490fb5f25d5d17b1ebcb9b3b0"
+    },
+    {
+      "path": "assets/capability/capabilities/alarm_occupancy.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "51155ae97ecf982fd2ac7162b0e316c55271d51a",
+      "size": 5044,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/51155ae97ecf982fd2ac7162b0e316c55271d51a"
+    },
+    {
+      "path": "assets/capability/capabilities/alarm_open.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "75b11a83c486c22347a1a8e8aa007c0a2fe915fe",
+      "size": 5266,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/75b11a83c486c22347a1a8e8aa007c0a2fe915fe"
+    },
+    {
+      "path": "assets/capability/capabilities/alarm_pm01.json",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "2a7af5efb8e062e8052c1004f4f52a244bf01bcd",
+      "size": 5061,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/2a7af5efb8e062e8052c1004f4f52a244bf01bcd"
+    },
+    {
+      "path": "assets/capability/capabilities/alarm_pm1.json",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "4aab460583a5a715ffd7ab542ac15addbb574640",
+      "size": 4894,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/4aab460583a5a715ffd7ab542ac15addbb574640"
+    },
+    {
+      "path": "assets/capability/capabilities/alarm_pm10.json",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "d342ddf0c6e8c53c4ff11148609766286f9d097f",
+      "size": 4934,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/d342ddf0c6e8c53c4ff11148609766286f9d097f"
+    },
+    {
+      "path": "assets/capability/capabilities/alarm_pm25.json",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "cf3b425c859ace5b5acd1a36b0d44a5fdf40a0e9",
+      "size": 4902,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/cf3b425c859ace5b5acd1a36b0d44a5fdf40a0e9"
+    },
+    {
+      "path": "assets/capability/capabilities/alarm_power.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "16486084886a420198e28bd8f1c7d03991eaaaa3",
+      "size": 5103,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/16486084886a420198e28bd8f1c7d03991eaaaa3"
+    },
+    {
+      "path": "assets/capability/capabilities/alarm_presence.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9c613bc02f015b9ede7ffa0afac9e7118e25a636",
+      "size": 5273,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/9c613bc02f015b9ede7ffa0afac9e7118e25a636"
+    },
+    {
+      "path": "assets/capability/capabilities/alarm_problem.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cc2b0e6d50db3e0881a80497a66d6a8d57ed2116",
+      "size": 4540,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/cc2b0e6d50db3e0881a80497a66d6a8d57ed2116"
+    },
+    {
+      "path": "assets/capability/capabilities/alarm_pump_device.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d09a34d222baa44942ada1982770369c18a2ef29",
+      "size": 6785,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/d09a34d222baa44942ada1982770369c18a2ef29"
+    },
+    {
+      "path": "assets/capability/capabilities/alarm_pump_supply.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "880670e91208a3eba9ecc559f2107e2294ba1e32",
+      "size": 6804,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/880670e91208a3eba9ecc559f2107e2294ba1e32"
+    },
+    {
+      "path": "assets/capability/capabilities/alarm_rain.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a3e3e1fb915e7019ba61ae880036fc9a2d00aab3",
+      "size": 4804,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/a3e3e1fb915e7019ba61ae880036fc9a2d00aab3"
+    },
+    {
+      "path": "assets/capability/capabilities/alarm_running.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d200b279141a1f88aa1281984c82e9d457956031",
+      "size": 5549,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/d200b279141a1f88aa1281984c82e9d457956031"
+    },
+    {
+      "path": "assets/capability/capabilities/alarm_safety.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1803caa4bafb2bcbe868e9dcb1315961d789e8b3",
+      "size": 4943,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/1803caa4bafb2bcbe868e9dcb1315961d789e8b3"
+    },
+    {
+      "path": "assets/capability/capabilities/alarm_smoke.json",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "ac2d5f75bab93fb0ee0a118cd65e6c7bfc002996",
+      "size": 4643,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/ac2d5f75bab93fb0ee0a118cd65e6c7bfc002996"
+    },
+    {
+      "path": "assets/capability/capabilities/alarm_stuck.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4cdf909b0ee1eb91cbf73ca3c046c7498f15bc0f",
+      "size": 4324,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/4cdf909b0ee1eb91cbf73ca3c046c7498f15bc0f"
+    },
+    {
+      "path": "assets/capability/capabilities/alarm_tamper.json",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "ad34fdc9f98c84e02fee0dc25c4d1b75976a9860",
+      "size": 5146,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/ad34fdc9f98c84e02fee0dc25c4d1b75976a9860"
+    },
+    {
+      "path": "assets/capability/capabilities/alarm_tank_empty.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "911924059fd612734137c45a5849034d5cdf9bf4",
+      "size": 4624,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/911924059fd612734137c45a5849034d5cdf9bf4"
+    },
+    {
+      "path": "assets/capability/capabilities/alarm_tank_missing.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "300d44a4ed89a41cf997041dc22c7d7d3c8ef994",
+      "size": 4663,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/300d44a4ed89a41cf997041dc22c7d7d3c8ef994"
+    },
+    {
+      "path": "assets/capability/capabilities/alarm_tank_open.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1108dd7f915daf3984bc2e3a6f5266a9b285222b",
+      "size": 4480,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/1108dd7f915daf3984bc2e3a6f5266a9b285222b"
+    },
+    {
+      "path": "assets/capability/capabilities/alarm_vibration.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8dcfa795689b21bd4bdd6fb45885bffbf63ed605",
+      "size": 5141,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/8dcfa795689b21bd4bdd6fb45885bffbf63ed605"
+    },
+    {
+      "path": "assets/capability/capabilities/alarm_water.json",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "bcc0904e3bbd9da7ca9b61ef6b902f89ea27ef51",
+      "size": 4750,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/bcc0904e3bbd9da7ca9b61ef6b902f89ea27ef51"
+    },
+    {
+      "path": "assets/capability/capabilities/audio_output.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f932204cb13e0fc28eecff4bccfde52cd63ac4ad",
+      "size": 6480,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/f932204cb13e0fc28eecff4bccfde52cd63ac4ad"
+    },
+    {
+      "path": "assets/capability/capabilities/battery_charging_state.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ffd4643e49b6131f648ee798104a0508f081beea",
+      "size": 5009,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/ffd4643e49b6131f648ee798104a0508f081beea"
+    },
+    {
+      "path": "assets/capability/capabilities/button.json",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "526daae02a89587d795bebb0c6d96ecdb341653a",
+      "size": 1018,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/526daae02a89587d795bebb0c6d96ecdb341653a"
+    },
+    {
+      "path": "assets/capability/capabilities/channel_down.json",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "4db8919d565703cd8590fd82d234d3fdfc0a9898",
+      "size": 1133,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/4db8919d565703cd8590fd82d234d3fdfc0a9898"
+    },
+    {
+      "path": "assets/capability/capabilities/channel_up.json",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "7003ea9f112a0c9d9deb2bc986169f42619b5a41",
+      "size": 1121,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/7003ea9f112a0c9d9deb2bc986169f42619b5a41"
+    },
+    {
+      "path": "assets/capability/capabilities/cooking_time.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9ce5c68487349322909415b21b72ca8db5f44338",
+      "size": 5488,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/9ce5c68487349322909415b21b72ca8db5f44338"
+    },
+    {
+      "path": "assets/capability/capabilities/dim.json",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "a9ccc25522b1e6c8c137b20a775a06cffd378f78",
+      "size": 5497,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/a9ccc25522b1e6c8c137b20a775a06cffd378f78"
+    },
+    {
+      "path": "assets/capability/capabilities/dishwasher_program.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1dd969b3f9e4c6019389b224d3869beb1218ba1e",
+      "size": 4331,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/1dd969b3f9e4c6019389b224d3869beb1218ba1e"
+    },
+    {
+      "path": "assets/capability/capabilities/docked.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9056c9151d8eccb6b0789ca35495864d4bc146cb",
+      "size": 4213,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/9056c9151d8eccb6b0789ca35495864d4bc146cb"
+    },
+    {
+      "path": "assets/capability/capabilities/ev_charging_state.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6763221ff3602cbfeda4561c34e25c00a003b4f9",
+      "size": 5931,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/6763221ff3602cbfeda4561c34e25c00a003b4f9"
+    },
+    {
+      "path": "assets/capability/capabilities/evcharger_charging.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a624d8e96cd69554b50cde72a00c2dda74eaafda",
+      "size": 4659,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/a624d8e96cd69554b50cde72a00c2dda74eaafda"
+    },
+    {
+      "path": "assets/capability/capabilities/evcharger_charging_state.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "106d7e0e438d957078e59e7fdf2bc4e5a53cbc61",
+      "size": 6471,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/106d7e0e438d957078e59e7fdf2bc4e5a53cbc61"
+    },
+    {
+      "path": "assets/capability/capabilities/fan_mode.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f3d6f239962c1f9a47337e4246e9cb4d1d66956f",
+      "size": 4566,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/f3d6f239962c1f9a47337e4246e9cb4d1d66956f"
+    },
+    {
+      "path": "assets/capability/capabilities/fan_speed.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4aafe136a95ebd715101ae299f9ae3cd63d5e15e",
+      "size": 3746,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/4aafe136a95ebd715101ae299f9ae3cd63d5e15e"
+    },
+    {
+      "path": "assets/capability/capabilities/garagedoor_closed.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c66f72af94b71db870a5ab372ce10224350794e9",
+      "size": 4384,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/c66f72af94b71db870a5ab372ce10224350794e9"
+    },
+    {
+      "path": "assets/capability/capabilities/heater_operation_mode.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "73a08339b8e2fecb300be91dae8481c75976ade9",
+      "size": 6972,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/73a08339b8e2fecb300be91dae8481c75976ade9"
+    },
+    {
+      "path": "assets/capability/capabilities/homealarm_state.json",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "a6aecbc7e80dd7eb0411cf6d631074b7cbab2601",
+      "size": 4511,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/a6aecbc7e80dd7eb0411cf6d631074b7cbab2601"
+    },
+    {
+      "path": "assets/capability/capabilities/hot_water_mode.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d530edf544ad017a2724868e04dd381601672da3",
+      "size": 4692,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/d530edf544ad017a2724868e04dd381601672da3"
+    },
+    {
+      "path": "assets/capability/capabilities/laundry_dryer_dryness.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e66db652f2ec7001a0071601362d27cd34a9b78b",
+      "size": 5931,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/e66db652f2ec7001a0071601362d27cd34a9b78b"
+    },
+    {
+      "path": "assets/capability/capabilities/laundry_washer_cycles.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9bfe96e606848bb199693cf8b147c3d9c33b79c6",
+      "size": 5990,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/9bfe96e606848bb199693cf8b147c3d9c33b79c6"
+    },
+    {
+      "path": "assets/capability/capabilities/laundry_washer_program.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a0e03136d1c9cef7dd891ab6aea2c9abe33ca374",
+      "size": 5156,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/a0e03136d1c9cef7dd891ab6aea2c9abe33ca374"
+    },
+    {
+      "path": "assets/capability/capabilities/laundry_washer_speed.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7988878b2cbce3ac02bcc5ba8ba4726ebfb36b21",
+      "size": 5267,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/7988878b2cbce3ac02bcc5ba8ba4726ebfb36b21"
+    },
+    {
+      "path": "assets/capability/capabilities/level_aqi.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f5252349b094b968e782a6cd311407fd1951a1e4",
+      "size": 6264,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/f5252349b094b968e782a6cd311407fd1951a1e4"
+    },
+    {
+      "path": "assets/capability/capabilities/level_carbon_filter.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "edaaa2cc973ce4ee2b87f13b27ef3adc3d53b528",
+      "size": 5047,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/edaaa2cc973ce4ee2b87f13b27ef3adc3d53b528"
+    },
+    {
+      "path": "assets/capability/capabilities/level_ch2o.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3a60c772de7becdee60fe5dcdca33faf50035b5b",
+      "size": 5070,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/3a60c772de7becdee60fe5dcdca33faf50035b5b"
+    },
+    {
+      "path": "assets/capability/capabilities/level_co.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "77ec1c742f399693fe077df172ad8cc47ab90d7e",
+      "size": 4681,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/77ec1c742f399693fe077df172ad8cc47ab90d7e"
+    },
+    {
+      "path": "assets/capability/capabilities/level_co2.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "81ca77894a9677201c5e190105af791f139dd5b6",
+      "size": 4715,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/81ca77894a9677201c5e190105af791f139dd5b6"
+    },
+    {
+      "path": "assets/capability/capabilities/level_hepa_filter.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bcee08d447977a8da43ccaf312f385a7f660b082",
+      "size": 4684,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/bcee08d447977a8da43ccaf312f385a7f660b082"
+    },
+    {
+      "path": "assets/capability/capabilities/level_nox.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4055759e81f1002d772faa0a378abea1a3c9b7ba",
+      "size": 4743,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/4055759e81f1002d772faa0a378abea1a3c9b7ba"
+    },
+    {
+      "path": "assets/capability/capabilities/level_o3.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ceb6b1e39135466ae5ddaf190e07b4edd92c2889",
+      "size": 4594,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/ceb6b1e39135466ae5ddaf190e07b4edd92c2889"
+    },
+    {
+      "path": "assets/capability/capabilities/level_pm01.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f046640d2c1bd6a974843ca660ec872ded599dd7",
+      "size": 4780,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/f046640d2c1bd6a974843ca660ec872ded599dd7"
+    },
+    {
+      "path": "assets/capability/capabilities/level_pm1.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3d313bfa6d5921f91efdf14b2ceaab1c20bd0509",
+      "size": 5046,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/3d313bfa6d5921f91efdf14b2ceaab1c20bd0509"
+    },
+    {
+      "path": "assets/capability/capabilities/level_pm10.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "66f97f60c075194bbe388f547ce8f41c76e5ae10",
+      "size": 4722,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/66f97f60c075194bbe388f547ce8f41c76e5ae10"
+    },
+    {
+      "path": "assets/capability/capabilities/level_pm25.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "92ea399beeaa8b155dacc8b93532a9c076af635a",
+      "size": 4780,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/92ea399beeaa8b155dacc8b93532a9c076af635a"
+    },
+    {
+      "path": "assets/capability/capabilities/level_radon.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1cf1066fad009a596a6a064297aa2138ea76b3d2",
+      "size": 4859,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/1cf1066fad009a596a6a064297aa2138ea76b3d2"
+    },
+    {
+      "path": "assets/capability/capabilities/level_so2.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "213cf210c5672a39faf5faef4559ecb6bb4444a2",
+      "size": 4815,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/213cf210c5672a39faf5faef4559ecb6bb4444a2"
+    },
+    {
+      "path": "assets/capability/capabilities/level_tvoc.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a21b04222e802a0dde7d6c79ed2e0154f3efb3bc",
+      "size": 5284,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/a21b04222e802a0dde7d6c79ed2e0154f3efb3bc"
+    },
+    {
+      "path": "assets/capability/capabilities/light_hue.json",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "85bb3112c707f353f1150bd14f7cf4d3cf925781",
+      "size": 4466,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/85bb3112c707f353f1150bd14f7cf4d3cf925781"
+    },
+    {
+      "path": "assets/capability/capabilities/light_mode.json",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "6896a659e90ab7e7a3f83ff3c1d887e603a09b50",
+      "size": 2154,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/6896a659e90ab7e7a3f83ff3c1d887e603a09b50"
+    },
+    {
+      "path": "assets/capability/capabilities/light_saturation.json",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "7a2e08424244b30d68fcc469bb2fb2c64abe742a",
+      "size": 1557,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/7a2e08424244b30d68fcc469bb2fb2c64abe742a"
+    },
+    {
+      "path": "assets/capability/capabilities/light_temperature.json",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "65ad8cb0c3d5e520471fdddbdd10ea1b40f06d1b",
+      "size": 3028,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/65ad8cb0c3d5e520471fdddbdd10ea1b40f06d1b"
+    },
+    {
+      "path": "assets/capability/capabilities/lock_mode.json",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "c86eda1b2c785c893cfa3f217b19a93f839be722",
+      "size": 4741,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/c86eda1b2c785c893cfa3f217b19a93f839be722"
+    },
+    {
+      "path": "assets/capability/capabilities/locked.json",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "111e11ce51b10562c00bd067295124a903512316",
+      "size": 4476,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/111e11ce51b10562c00bd067295124a903512316"
+    },
+    {
+      "path": "assets/capability/capabilities/measure_aqi.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b7bbbbfa481861115a3e831f1c5cfe8874f28c70",
+      "size": 2331,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/b7bbbbfa481861115a3e831f1c5cfe8874f28c70"
+    },
+    {
+      "path": "assets/capability/capabilities/measure_battery.json",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "6670ef406c49209170c4cfd69bc081df942c4065",
+      "size": 2379,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/6670ef406c49209170c4cfd69bc081df942c4065"
+    },
+    {
+      "path": "assets/capability/capabilities/measure_carbon_filter.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bc7bbec44c4d43c05b30ec8d70ebe3b349c377a5",
+      "size": 2670,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/bc7bbec44c4d43c05b30ec8d70ebe3b349c377a5"
+    },
+    {
+      "path": "assets/capability/capabilities/measure_ch2o.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f871087d1a29d902bebd2a551c2aba591917e2e8",
+      "size": 2911,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/f871087d1a29d902bebd2a551c2aba591917e2e8"
+    },
+    {
+      "path": "assets/capability/capabilities/measure_co.json",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "f2e5e9527cdc1a0f4c096c9588a168815e9c92a2",
+      "size": 2331,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/f2e5e9527cdc1a0f4c096c9588a168815e9c92a2"
+    },
+    {
+      "path": "assets/capability/capabilities/measure_co2.json",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "1f4f1e561397d1a90c0ca8d532fc91e376fe6d0e",
+      "size": 2395,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/1f4f1e561397d1a90c0ca8d532fc91e376fe6d0e"
+    },
+    {
+      "path": "assets/capability/capabilities/measure_content_volume.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "29ba9ae179ffd1ef7a18583221f36456e9a24145",
+      "size": 2210,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/29ba9ae179ffd1ef7a18583221f36456e9a24145"
+    },
+    {
+      "path": "assets/capability/capabilities/measure_current.json",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "70b210f38f0404bba8177e970b3a1f489d4a15c0",
+      "size": 2213,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/70b210f38f0404bba8177e970b3a1f489d4a15c0"
+    },
+    {
+      "path": "assets/capability/capabilities/measure_data_rate.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1f1e76741b2264c942ebcb9ccfa3e5949085e60d",
+      "size": 2717,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/1f1e76741b2264c942ebcb9ccfa3e5949085e60d"
+    },
+    {
+      "path": "assets/capability/capabilities/measure_data_size.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "16226fc377553cc130cc53dda6b3f7e1a8075fc2",
+      "size": 2432,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/16226fc377553cc130cc53dda6b3f7e1a8075fc2"
+    },
+    {
+      "path": "assets/capability/capabilities/measure_distance.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7d39c9a947a59992e197464a5446fa5cc903c253",
+      "size": 2121,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/7d39c9a947a59992e197464a5446fa5cc903c253"
+    },
+    {
+      "path": "assets/capability/capabilities/measure_frequency.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9ac4892a8c4762a036d144f83bb8c571ca3d8636",
+      "size": 2167,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/9ac4892a8c4762a036d144f83bb8c571ca3d8636"
+    },
+    {
+      "path": "assets/capability/capabilities/measure_gust_angle.json",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "c0736cfdddf82162d323e562ab2e7b7ce8c1eddf",
+      "size": 2422,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/c0736cfdddf82162d323e562ab2e7b7ce8c1eddf"
+    },
+    {
+      "path": "assets/capability/capabilities/measure_gust_strength.json",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "7020c338b13858ff5ef6d3a635c41ac2c985f15f",
+      "size": 2624,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/7020c338b13858ff5ef6d3a635c41ac2c985f15f"
+    },
+    {
+      "path": "assets/capability/capabilities/measure_hepa_filter.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b7df1e27fd8852947fe14e11afe3381f56a4da57",
+      "size": 2490,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/b7df1e27fd8852947fe14e11afe3381f56a4da57"
+    },
+    {
+      "path": "assets/capability/capabilities/measure_humidity.json",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "e57a817e3adf722869a17e4300d608b20ba82d5a",
+      "size": 2205,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/e57a817e3adf722869a17e4300d608b20ba82d5a"
+    },
+    {
+      "path": "assets/capability/capabilities/measure_luminance.json",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "86567989dac3a919a8ce3c4a4896f1e7ed643a3e",
+      "size": 2109,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/86567989dac3a919a8ce3c4a4896f1e7ed643a3e"
+    },
+    {
+      "path": "assets/capability/capabilities/measure_moisture.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6dff42a90de147fcd2911115b9cc1665982161af",
+      "size": 2383,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/6dff42a90de147fcd2911115b9cc1665982161af"
+    },
+    {
+      "path": "assets/capability/capabilities/measure_monetary.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4b48d134bbf057dcf54ad72ec9cd7a38d8ef1d23",
+      "size": 2822,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/4b48d134bbf057dcf54ad72ec9cd7a38d8ef1d23"
+    },
+    {
+      "path": "assets/capability/capabilities/measure_noise.json",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "6219d6afd3314b713e3c78c9eebba503da623c28",
+      "size": 2045,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/6219d6afd3314b713e3c78c9eebba503da623c28"
+    },
+    {
+      "path": "assets/capability/capabilities/measure_nox.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "543b2ace5fb65b57b999ee402d1c17a3750958b9",
+      "size": 2731,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/543b2ace5fb65b57b999ee402d1c17a3750958b9"
+    },
+    {
+      "path": "assets/capability/capabilities/measure_o3.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "06b9f6cde2fecd3173d82a047b52f052e6c1a5dc",
+      "size": 2571,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/06b9f6cde2fecd3173d82a047b52f052e6c1a5dc"
+    },
+    {
+      "path": "assets/capability/capabilities/measure_odor.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "01f321bb786f1e3da2e8d3e949a45caafaf39cdf",
+      "size": 2568,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/01f321bb786f1e3da2e8d3e949a45caafaf39cdf"
+    },
+    {
+      "path": "assets/capability/capabilities/measure_ph.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1e524e391db256954ea7f48834820c324d947487",
+      "size": 2118,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/1e524e391db256954ea7f48834820c324d947487"
+    },
+    {
+      "path": "assets/capability/capabilities/measure_pm01.json",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "5cf270de5521807cf2af77e224e705df6a95680c",
+      "size": 2473,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/5cf270de5521807cf2af77e224e705df6a95680c"
+    },
+    {
+      "path": "assets/capability/capabilities/measure_pm1.json",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "ea823abbbb9b2332bab936a75f2352d45313e64d",
+      "size": 2414,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/ea823abbbb9b2332bab936a75f2352d45313e64d"
+    },
+    {
+      "path": "assets/capability/capabilities/measure_pm10.json",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "9f8cee1f3a76993756b0655f6057538336855429",
+      "size": 2424,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/9f8cee1f3a76993756b0655f6057538336855429"
+    },
+    {
+      "path": "assets/capability/capabilities/measure_pm25.json",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "1fae21de36edc00fcb7ce4e28c74d41e74c1699e",
+      "size": 2446,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/1fae21de36edc00fcb7ce4e28c74d41e74c1699e"
+    },
+    {
+      "path": "assets/capability/capabilities/measure_power.json",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "5204061d90befdacaa7c1303fb6bcc6c5faccc85",
+      "size": 4531,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/5204061d90befdacaa7c1303fb6bcc6c5faccc85"
+    },
+    {
+      "path": "assets/capability/capabilities/measure_pressure.json",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "359680244eb7314de3638106dd5659a42bc4b63d",
+      "size": 2120,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/359680244eb7314de3638106dd5659a42bc4b63d"
+    },
+    {
+      "path": "assets/capability/capabilities/measure_radon.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bc82cd1c6a323d1d7fb8a75c11f97cc086023ba3",
+      "size": 2550,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/bc82cd1c6a323d1d7fb8a75c11f97cc086023ba3"
+    },
+    {
+      "path": "assets/capability/capabilities/measure_rain.json",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "5e59c3bd36c2d86fdc5de5b673967741358f52f3",
+      "size": 2061,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/5e59c3bd36c2d86fdc5de5b673967741358f52f3"
+    },
+    {
+      "path": "assets/capability/capabilities/measure_rain_intensity.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "203e93be70c6abb7c9f779281414aef3a7f496b1",
+      "size": 2745,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/203e93be70c6abb7c9f779281414aef3a7f496b1"
+    },
+    {
+      "path": "assets/capability/capabilities/measure_rotation.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c796b61817e7083616ed1a53fc9c4ba3479829f5",
+      "size": 2131,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/c796b61817e7083616ed1a53fc9c4ba3479829f5"
+    },
+    {
+      "path": "assets/capability/capabilities/measure_signal_strength.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ed97c179ab0c56490a91cc4df9b1235c10416500",
+      "size": 2482,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/ed97c179ab0c56490a91cc4df9b1235c10416500"
+    },
+    {
+      "path": "assets/capability/capabilities/measure_so2.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "884d8087c2b38fab082075ebcbb582f355e00599",
+      "size": 2765,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/884d8087c2b38fab082075ebcbb582f355e00599"
+    },
+    {
+      "path": "assets/capability/capabilities/measure_speed.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d215af550db2f05454ef101430405cf1cd86365a",
+      "size": 2315,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/d215af550db2f05454ef101430405cf1cd86365a"
+    },
+    {
+      "path": "assets/capability/capabilities/measure_temperature.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ac0ded5a17f21732d7c26b45cbff125c81c53a6f",
+      "size": 2391,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/ac0ded5a17f21732d7c26b45cbff125c81c53a6f"
+    },
+    {
+      "path": "assets/capability/capabilities/measure_tvoc.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "100b28905229a0f460ddbb8bc57ace954a340474",
+      "size": 3267,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/100b28905229a0f460ddbb8bc57ace954a340474"
+    },
+    {
+      "path": "assets/capability/capabilities/measure_tvoc_index.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5172e95e89d3c9c12f9f62800244ecdaa37452b2",
+      "size": 2612,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/5172e95e89d3c9c12f9f62800244ecdaa37452b2"
+    },
+    {
+      "path": "assets/capability/capabilities/measure_ultraviolet.json",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "de4d24cf252170f3386e2642b2f76477e5690328",
+      "size": 2588,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/de4d24cf252170f3386e2642b2f76477e5690328"
+    },
+    {
+      "path": "assets/capability/capabilities/measure_voltage.json",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "1f8ddd544d5d97fc71662b5d3233110531a8b01e",
+      "size": 1963,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/1f8ddd544d5d97fc71662b5d3233110531a8b01e"
+    },
+    {
+      "path": "assets/capability/capabilities/measure_water.json",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "9518435222f6b3c4812ae880fed727ce2b6732cb",
+      "size": 2506,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/9518435222f6b3c4812ae880fed727ce2b6732cb"
+    },
+    {
+      "path": "assets/capability/capabilities/measure_weight.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2bfeab8473828aa738ceb9adb166df1089e9cf1e",
+      "size": 3192,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/2bfeab8473828aa738ceb9adb166df1089e9cf1e"
+    },
+    {
+      "path": "assets/capability/capabilities/measure_wind_angle.json",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "8bab73547780c0d00a92d4e4c67a232f8a79807a",
+      "size": 2265,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/8bab73547780c0d00a92d4e4c67a232f8a79807a"
+    },
+    {
+      "path": "assets/capability/capabilities/measure_wind_strength.json",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "5e771595f7a838d79b91a3d1300bfdd0132b198a",
+      "size": 2479,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/5e771595f7a838d79b91a3d1300bfdd0132b198a"
+    },
+    {
+      "path": "assets/capability/capabilities/media_input.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3d45554bad83426fb6fcc5041a4dd54837839548",
+      "size": 6619,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/3d45554bad83426fb6fcc5041a4dd54837839548"
+    },
+    {
+      "path": "assets/capability/capabilities/meter_gas.json",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "5894ecbc7baccd5771e411000ac71d44f84dd0b6",
+      "size": 2421,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/5894ecbc7baccd5771e411000ac71d44f84dd0b6"
+    },
+    {
+      "path": "assets/capability/capabilities/meter_power.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f2f41064473af828b9bb696107b8d2d1e1def24e",
+      "size": 4962,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/f2f41064473af828b9bb696107b8d2d1e1def24e"
+    },
+    {
+      "path": "assets/capability/capabilities/meter_rain.json",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "260140d4233e741047496320a89d6be8747ba2fd",
+      "size": 2293,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/260140d4233e741047496320a89d6be8747ba2fd"
+    },
+    {
+      "path": "assets/capability/capabilities/meter_water.json",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "3437a7fe1624d25431ab4fa9720981a5e366292f",
+      "size": 2474,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/3437a7fe1624d25431ab4fa9720981a5e366292f"
+    },
+    {
+      "path": "assets/capability/capabilities/microwave_mode.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "33e96932f7078e2aec70574a892c030d1db320cb",
+      "size": 5485,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/33e96932f7078e2aec70574a892c030d1db320cb"
+    },
+    {
+      "path": "assets/capability/capabilities/mower_state.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f8aba67086fcadb3ed138e2507dcffff7067ee9d",
+      "size": 6832,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/f8aba67086fcadb3ed138e2507dcffff7067ee9d"
+    },
+    {
+      "path": "assets/capability/capabilities/onoff.json",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "46bbcd7ad2e02b9e7a86ab2be2430430df728358",
+      "size": 12112,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/46bbcd7ad2e02b9e7a86ab2be2430430df728358"
+    },
+    {
+      "path": "assets/capability/capabilities/operational_state.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "39cb1e6119f9672dc9b917a0c0a80c3a4a066f42",
+      "size": 4940,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/39cb1e6119f9672dc9b917a0c0a80c3a4a066f42"
+    },
+    {
+      "path": "assets/capability/capabilities/oscillating.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "305d4bf3ec613057da0dfdff9455e6676de16800",
+      "size": 6614,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/305d4bf3ec613057da0dfdff9455e6676de16800"
+    },
+    {
+      "path": "assets/capability/capabilities/oven_mode.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f81e39abf487d18749433f764ca4088e3d75abc0",
+      "size": 8175,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/f81e39abf487d18749433f764ca4088e3d75abc0"
+    },
+    {
+      "path": "assets/capability/capabilities/power_boost.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bf36957238c49165f5c44cf8c9091024fec59ecb",
+      "size": 8402,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/bf36957238c49165f5c44cf8c9091024fec59ecb"
+    },
+    {
+      "path": "assets/capability/capabilities/power_level.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7c6579d6c56bd71f64ba9cd27b6e6ab3cf99bd20",
+      "size": 5759,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/7c6579d6c56bd71f64ba9cd27b6e6ab3cf99bd20"
+    },
+    {
+      "path": "assets/capability/capabilities/progress.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e0b1637d27c66807b3ae8dc900e322e0902d00f2",
+      "size": 3823,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/e0b1637d27c66807b3ae8dc900e322e0902d00f2"
+    },
+    {
+      "path": "assets/capability/capabilities/pump_mode.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a401c42d81343baab810189af84efdcce4a1e839",
+      "size": 7513,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/a401c42d81343baab810189af84efdcce4a1e839"
+    },
+    {
+      "path": "assets/capability/capabilities/pump_setpoint.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b2b65668d418c9ffc97047fe5ca189782c85e24e",
+      "size": 3744,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/b2b65668d418c9ffc97047fe5ca189782c85e24e"
+    },
+    {
+      "path": "assets/capability/capabilities/refrigerator_mode.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "be38c90c4d75d73670449b5c22f4f5b2fd45c4dc",
+      "size": 5164,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/be38c90c4d75d73670449b5c22f4f5b2fd45c4dc"
+    },
+    {
+      "path": "assets/capability/capabilities/speaker_album.json",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "0c8fda87d72a773f03dcfc0b4bfaa558ed53b3b7",
+      "size": 1224,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/0c8fda87d72a773f03dcfc0b4bfaa558ed53b3b7"
+    },
+    {
+      "path": "assets/capability/capabilities/speaker_artist.json",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "82e0596f6b5a493b8141f048e148471d983cf301",
+      "size": 1290,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/82e0596f6b5a493b8141f048e148471d983cf301"
+    },
+    {
+      "path": "assets/capability/capabilities/speaker_duration.json",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "399f38cf8d8736be08d5d7c0247ce17a4d0c7813",
+      "size": 433,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/399f38cf8d8736be08d5d7c0247ce17a4d0c7813"
+    },
+    {
+      "path": "assets/capability/capabilities/speaker_next.json",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "e67dbb2bc9b6126d1c93a8f11d002e5b213514db",
+      "size": 868,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/e67dbb2bc9b6126d1c93a8f11d002e5b213514db"
+    },
+    {
+      "path": "assets/capability/capabilities/speaker_playing.json",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "c134f8936171c4608bec5348a5cf3a29636a44f5",
+      "size": 4166,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/c134f8936171c4608bec5348a5cf3a29636a44f5"
+    },
+    {
+      "path": "assets/capability/capabilities/speaker_position.json",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "c597f39d4fcdc4dead1f68cf089646114beae179",
+      "size": 420,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/c597f39d4fcdc4dead1f68cf089646114beae179"
+    },
+    {
+      "path": "assets/capability/capabilities/speaker_prev.json",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "6bfa4724dc51b2984c56b8c526f501056e04bed4",
+      "size": 896,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/6bfa4724dc51b2984c56b8c526f501056e04bed4"
+    },
+    {
+      "path": "assets/capability/capabilities/speaker_repeat.json",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "dfeb3b2a0b66e020b47cad0b1f1d2eab4f8f4d63",
+      "size": 2487,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/dfeb3b2a0b66e020b47cad0b1f1d2eab4f8f4d63"
+    },
+    {
+      "path": "assets/capability/capabilities/speaker_shuffle.json",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "8bfd687ddaf3f6e7c222756f2b9166ecf65f7f2b",
+      "size": 1690,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/8bfd687ddaf3f6e7c222756f2b9166ecf65f7f2b"
+    },
+    {
+      "path": "assets/capability/capabilities/speaker_stop.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "52ff6ec4d057153edb37c351194800d202c62e8d",
+      "size": 890,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/52ff6ec4d057153edb37c351194800d202c62e8d"
+    },
+    {
+      "path": "assets/capability/capabilities/speaker_track.json",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "44e36d197e2d41f680b6cc875ff6115280ea56e6",
+      "size": 1207,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/44e36d197e2d41f680b6cc875ff6115280ea56e6"
+    },
+    {
+      "path": "assets/capability/capabilities/swing_mode.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ca09516937ea5f488dce7c9c18c9fd5cd095d3f5",
+      "size": 4548,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/ca09516937ea5f488dce7c9c18c9fd5cd095d3f5"
+    },
+    {
+      "path": "assets/capability/capabilities/target_humidity.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "176d20e703b2ee4861462ed779eb110d90ca5720",
+      "size": 3651,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/176d20e703b2ee4861462ed779eb110d90ca5720"
+    },
+    {
+      "path": "assets/capability/capabilities/target_humidity_max.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7fee0163b70f0bd6d57881268369ffea330f9d8e",
+      "size": 4414,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/7fee0163b70f0bd6d57881268369ffea330f9d8e"
+    },
+    {
+      "path": "assets/capability/capabilities/target_humidity_min.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "86d4de1883570151936548538b99efbcf5657dae",
+      "size": 4363,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/86d4de1883570151936548538b99efbcf5657dae"
+    },
+    {
+      "path": "assets/capability/capabilities/target_temperature.json",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "0dfd75f9571b75a26bce2f3b1de0f7b949496b4c",
+      "size": 2889,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/0dfd75f9571b75a26bce2f3b1de0f7b949496b4c"
+    },
+    {
+      "path": "assets/capability/capabilities/target_temperature_level.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fbc13e29a4a6d02243cdb0f5ef622598323f649e",
+      "size": 6069,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/fbc13e29a4a6d02243cdb0f5ef622598323f649e"
+    },
+    {
+      "path": "assets/capability/capabilities/target_temperature_max.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1d4af36c1ec7b793c9f2b266038a0f5c063c7abc",
+      "size": 4489,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/1d4af36c1ec7b793c9f2b266038a0f5c063c7abc"
+    },
+    {
+      "path": "assets/capability/capabilities/target_temperature_min.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c18f9eeeb071cd49cb9add231a8e6fdee4aad293",
+      "size": 4453,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/c18f9eeeb071cd49cb9add231a8e6fdee4aad293"
+    },
+    {
+      "path": "assets/capability/capabilities/thermostat_mode.json",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "fbca06fcee09ba1f0b4f18163b231d20e31328c7",
+      "size": 5406,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/fbca06fcee09ba1f0b4f18163b231d20e31328c7"
+    },
+    {
+      "path": "assets/capability/capabilities/vacuumcleaner_job_mode.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1efc80de178f56abb543daf55ee130c794716985",
+      "size": 5758,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/1efc80de178f56abb543daf55ee130c794716985"
+    },
+    {
+      "path": "assets/capability/capabilities/vacuumcleaner_state.json",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "bd31a2b6f0bff42cb29b4efe2fb6877b9e429b1e",
+      "size": 7160,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/bd31a2b6f0bff42cb29b4efe2fb6877b9e429b1e"
+    },
+    {
+      "path": "assets/capability/capabilities/valve_position.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d941e3b9e49f06beb9f45adc2ed2ef04668c80c7",
+      "size": 3749,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/d941e3b9e49f06beb9f45adc2ed2ef04668c80c7"
+    },
+    {
+      "path": "assets/capability/capabilities/volume_down.json",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "68e39bdddc93efc4a42d572a72af57261569166b",
+      "size": 1152,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/68e39bdddc93efc4a42d572a72af57261569166b"
+    },
+    {
+      "path": "assets/capability/capabilities/volume_mute.json",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "d7cfbf3fdf8f47d39b93d610049c1ebd41db1ee0",
+      "size": 2623,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/d7cfbf3fdf8f47d39b93d610049c1ebd41db1ee0"
+    },
+    {
+      "path": "assets/capability/capabilities/volume_set.json",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "bdfe1f388148d7d39e3747f92cbc5246f80af8a8",
+      "size": 5742,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/bdfe1f388148d7d39e3747f92cbc5246f80af8a8"
+    },
+    {
+      "path": "assets/capability/capabilities/volume_up.json",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "e35d88d4f70306a693f35e12b828bb1b2d649d67",
+      "size": 1172,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/e35d88d4f70306a693f35e12b828bb1b2d649d67"
+    },
+    {
+      "path": "assets/capability/capabilities/windowcoverings_closed.json",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "8573e85f2f7d45756f96b034406fcee3d5ef57c2",
+      "size": 3783,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/8573e85f2f7d45756f96b034406fcee3d5ef57c2"
+    },
+    {
+      "path": "assets/capability/capabilities/windowcoverings_set.json",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "f7d468a582752e4a5c62faef5c89eb53f0cc70aa",
+      "size": 5656,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/f7d468a582752e4a5c62faef5c89eb53f0cc70aa"
+    },
+    {
+      "path": "assets/capability/capabilities/windowcoverings_state.json",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "1baac45b00bc572291846d3bef1c813fb1a93f5c",
+      "size": 4277,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/1baac45b00bc572291846d3bef1c813fb1a93f5c"
+    },
+    {
+      "path": "assets/capability/capabilities/windowcoverings_tilt_down.json",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "7268cdbc2b6d4b882670315f5d592163e10bc54a",
+      "size": 1293,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/7268cdbc2b6d4b882670315f5d592163e10bc54a"
+    },
+    {
+      "path": "assets/capability/capabilities/windowcoverings_tilt_set.json",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "b9bb32715aa69a98081b39f38493708b6cb724da",
+      "size": 5219,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/b9bb32715aa69a98081b39f38493708b6cb724da"
+    },
+    {
+      "path": "assets/capability/capabilities/windowcoverings_tilt_up.json",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "cdf44eb41319ac6db34d58582bb62d84d71b63f2",
+      "size": 1262,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/cdf44eb41319ac6db34d58582bb62d84d71b63f2"
+    },
+    {
+      "path": "assets/capability/schema.json",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "135f2071e407152b5ac6ad79270d57f226fcaa98",
+      "size": 2978,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/135f2071e407152b5ac6ad79270d57f226fcaa98"
+    },
+    {
+      "path": "assets/device",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "d4b7a92f0b7d9697738f66a9c93b8947914ca85a",
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/trees/d4b7a92f0b7d9697738f66a9c93b8947914ca85a"
+    },
+    {
+      "path": "assets/device/classes.json",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "cb2526793c5530c77dbd0d28bcefc24554c96282",
+      "size": 1075,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/cb2526793c5530c77dbd0d28bcefc24554c96282"
+    },
+    {
+      "path": "assets/device/classes",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "0916a3bdf944bbdb605d672fe278a292d772ef25",
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/trees/0916a3bdf944bbdb605d672fe278a292d772ef25"
+    },
+    {
+      "path": "assets/device/classes/airconditioning.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "064fb104fb9adb8b9f3d75e850a2144298a500f6",
+      "size": 1928,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/064fb104fb9adb8b9f3d75e850a2144298a500f6"
+    },
+    {
+      "path": "assets/device/classes/airfryer.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4529c9367b683f8fc1d1e4a3317845f61f5fb1d7",
+      "size": 1383,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/4529c9367b683f8fc1d1e4a3317845f61f5fb1d7"
+    },
+    {
+      "path": "assets/device/classes/airpurifier.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c958d1418d41dc94085f8a027b71776d27597971",
+      "size": 1442,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/c958d1418d41dc94085f8a027b71776d27597971"
+    },
+    {
+      "path": "assets/device/classes/airtreatment.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "68b18d285ecb2508668eba655ae082d45bd2b65b",
+      "size": 4468,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/68b18d285ecb2508668eba655ae082d45bd2b65b"
+    },
+    {
+      "path": "assets/device/classes/amplifier.json",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "9de6fa9de90c3c9a0c292aeaf8a25ac327d2d2a8",
+      "size": 1405,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/9de6fa9de90c3c9a0c292aeaf8a25ac327d2d2a8"
+    },
+    {
+      "path": "assets/device/classes/battery.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6aafecebbadb883ad8e2ebeada620b38beebdde3",
+      "size": 1818,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/6aafecebbadb883ad8e2ebeada620b38beebdde3"
+    },
+    {
+      "path": "assets/device/classes/bicycle.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b65fbf22ca2abc70c0cc180f72574520041d0735",
+      "size": 1224,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/b65fbf22ca2abc70c0cc180f72574520041d0735"
+    },
+    {
+      "path": "assets/device/classes/blinds.json",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "647558e46a58342e7617f14d7250fd292654926f",
+      "size": 1661,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/647558e46a58342e7617f14d7250fd292654926f"
+    },
+    {
+      "path": "assets/device/classes/boiler.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "818c17c50779ee61eb3a675541af72819eef90df",
+      "size": 2710,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/818c17c50779ee61eb3a675541af72819eef90df"
+    },
+    {
+      "path": "assets/device/classes/bridge.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3df032aa2d4ee2068dd48a30d81331bc92144fa3",
+      "size": 2088,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/3df032aa2d4ee2068dd48a30d81331bc92144fa3"
+    },
+    {
+      "path": "assets/device/classes/button.json",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "cf1505b20cf8b451ec6b93cf046d72fa0c0f67c4",
+      "size": 1488,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/cf1505b20cf8b451ec6b93cf046d72fa0c0f67c4"
+    },
+    {
+      "path": "assets/device/classes/camera.json",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "198b5ff2449f943f73c381303c6daec429f8f9c2",
+      "size": 766,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/198b5ff2449f943f73c381303c6daec429f8f9c2"
+    },
+    {
+      "path": "assets/device/classes/car.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cf58d040ead8e385e18d434cc59d9de67be22d79",
+      "size": 1354,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/cf58d040ead8e385e18d434cc59d9de67be22d79"
+    },
+    {
+      "path": "assets/device/classes/coffeemachine.json",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "abdab080be596879e72d81555a74e4b5342ff5a6",
+      "size": 1353,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/abdab080be596879e72d81555a74e4b5342ff5a6"
+    },
+    {
+      "path": "assets/device/classes/cooktop.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b837a929e10cbe14173646173f7fbeadc78f617d",
+      "size": 1304,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/b837a929e10cbe14173646173f7fbeadc78f617d"
+    },
+    {
+      "path": "assets/device/classes/curtain.json",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "00fe0dc488024b4e43658630079b2e283beb0578",
+      "size": 1118,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/00fe0dc488024b4e43658630079b2e283beb0578"
+    },
+    {
+      "path": "assets/device/classes/dehumidifier.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a9d09038d07f85b9f5188ed981d56b50957709b5",
+      "size": 1411,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/a9d09038d07f85b9f5188ed981d56b50957709b5"
+    },
+    {
+      "path": "assets/device/classes/diffuser.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "94bce03e6822bb9b1e8b1ea70d9220ec0ae3fb88",
+      "size": 1268,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/94bce03e6822bb9b1e8b1ea70d9220ec0ae3fb88"
+    },
+    {
+      "path": "assets/device/classes/dishwasher.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "96b611567457018df58f26500b86bb4ca4ded10b",
+      "size": 1396,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/96b611567457018df58f26500b86bb4ca4ded10b"
+    },
+    {
+      "path": "assets/device/classes/doorbell.json",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "f7f687b7cba05f6598d65534caf98c5db3fd13c7",
+      "size": 1856,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/f7f687b7cba05f6598d65534caf98c5db3fd13c7"
+    },
+    {
+      "path": "assets/device/classes/dryer.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e99c458699671b6059ad7c84940e39a450b21c21",
+      "size": 2296,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/e99c458699671b6059ad7c84940e39a450b21c21"
+    },
+    {
+      "path": "assets/device/classes/evcharger.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "268505ca4d5557a4c314925ba7e685284b0dd3c0",
+      "size": 1655,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/268505ca4d5557a4c314925ba7e685284b0dd3c0"
+    },
+    {
+      "path": "assets/device/classes/fan.json",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "9175ff26329ff2a9042becfb737db6c8088bbcce",
+      "size": 1547,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/9175ff26329ff2a9042becfb737db6c8088bbcce"
+    },
+    {
+      "path": "assets/device/classes/faucet.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0ceb2f76de8ca71c11b5ad1d3958996b7ba25dde",
+      "size": 1215,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/0ceb2f76de8ca71c11b5ad1d3958996b7ba25dde"
+    },
+    {
+      "path": "assets/device/classes/fireplace.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7a8e6addd7d476390690756692ae9ae40ee5aaa8",
+      "size": 1202,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/7a8e6addd7d476390690756692ae9ae40ee5aaa8"
+    },
+    {
+      "path": "assets/device/classes/freezer.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fccef9689227cb0de8744216a5ec7fb5285f4818",
+      "size": 2425,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/fccef9689227cb0de8744216a5ec7fb5285f4818"
+    },
+    {
+      "path": "assets/device/classes/fridge.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c8be9d3293a66cf56224f1870de98df3ce76d6ea",
+      "size": 2437,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/c8be9d3293a66cf56224f1870de98df3ce76d6ea"
+    },
+    {
+      "path": "assets/device/classes/fridge_and_freezer.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9ea01c0a8d9ce984a9cb2da61627fda197ddb46e",
+      "size": 2079,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/9ea01c0a8d9ce984a9cb2da61627fda197ddb46e"
+    },
+    {
+      "path": "assets/device/classes/fryer.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7c5a400ae77b387ab082bfbbc128e5149fb9904c",
+      "size": 1264,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/7c5a400ae77b387ab082bfbbc128e5149fb9904c"
+    },
+    {
+      "path": "assets/device/classes/gameconsole.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bd9427bf1d33089496f3658f88995408faa8dcc0",
+      "size": 1605,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/bd9427bf1d33089496f3658f88995408faa8dcc0"
+    },
+    {
+      "path": "assets/device/classes/garagedoor.json",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "5a4fdda009de9b8505b7a0a31c6dc0d49469e177",
+      "size": 2040,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/5a4fdda009de9b8505b7a0a31c6dc0d49469e177"
+    },
+    {
+      "path": "assets/device/classes/grill.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b218cc320653d024206bca960e13b488a6a7dd8f",
+      "size": 1155,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/b218cc320653d024206bca960e13b488a6a7dd8f"
+    },
+    {
+      "path": "assets/device/classes/heater.json",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "3cb70a1fc65ca93b3c929c044d991bd325da8e04",
+      "size": 2042,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/3cb70a1fc65ca93b3c929c044d991bd325da8e04"
+    },
+    {
+      "path": "assets/device/classes/heatpump.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "72014b338dab67ab6246317aede9c64d16d5003d",
+      "size": 1356,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/72014b338dab67ab6246317aede9c64d16d5003d"
+    },
+    {
+      "path": "assets/device/classes/homealarm.json",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "38bd875cd6adea5d0f77fb8dba59fdce61aaa775",
+      "size": 1493,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/38bd875cd6adea5d0f77fb8dba59fdce61aaa775"
+    },
+    {
+      "path": "assets/device/classes/hood.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "daf80d3aced02f150d1a3d163507cb994e27ca5c",
+      "size": 1458,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/daf80d3aced02f150d1a3d163507cb994e27ca5c"
+    },
+    {
+      "path": "assets/device/classes/humidifier.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "844fbe6cb6f2882df65f6fad5a4e8b62d5ba2ec9",
+      "size": 1385,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/844fbe6cb6f2882df65f6fad5a4e8b62d5ba2ec9"
+    },
+    {
+      "path": "assets/device/classes/kettle.json",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "237c053f5157559dc3b07ef6230cf8cd002f6cdf",
+      "size": 1587,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/237c053f5157559dc3b07ef6230cf8cd002f6cdf"
+    },
+    {
+      "path": "assets/device/classes/lawnmower.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7d7e12ea3316e59b077a573844e435517857effe",
+      "size": 1367,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/7d7e12ea3316e59b077a573844e435517857effe"
+    },
+    {
+      "path": "assets/device/classes/light.json",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "610eb79913ffeae32f7f229e84336163fdfffbbc",
+      "size": 1980,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/610eb79913ffeae32f7f229e84336163fdfffbbc"
+    },
+    {
+      "path": "assets/device/classes/lock.json",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "44afaeddb211e301793aea54444fc82a23ac6b03",
+      "size": 2031,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/44afaeddb211e301793aea54444fc82a23ac6b03"
+    },
+    {
+      "path": "assets/device/classes/mediaplayer.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3d1f0f28f4a6ac31ac743d98d58bcf7ae8ef6fca",
+      "size": 2723,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/3d1f0f28f4a6ac31ac743d98d58bcf7ae8ef6fca"
+    },
+    {
+      "path": "assets/device/classes/microwave.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dc4d6bee1894ef940768b645a80e23bff0e1b772",
+      "size": 2496,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/dc4d6bee1894ef940768b645a80e23bff0e1b772"
+    },
+    {
+      "path": "assets/device/classes/mop.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8fd9a2b9f9bc339b275efbe64fc3f69624ce3646",
+      "size": 1595,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/8fd9a2b9f9bc339b275efbe64fc3f69624ce3646"
+    },
+    {
+      "path": "assets/device/classes/multicooker.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3edff4c2f7ac74167e190596d54f3931ed54b33a",
+      "size": 1347,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/3edff4c2f7ac74167e190596d54f3931ed54b33a"
+    },
+    {
+      "path": "assets/device/classes/networkrouter.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "27e40bc20aba7c2004f7157c4091e6dfbf8dbfe6",
+      "size": 1519,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/27e40bc20aba7c2004f7157c4091e6dfbf8dbfe6"
+    },
+    {
+      "path": "assets/device/classes/other.json",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "4f30efc957fd0f49dcaf6607a48644f7ac065046",
+      "size": 1784,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/4f30efc957fd0f49dcaf6607a48644f7ac065046"
+    },
+    {
+      "path": "assets/device/classes/oven.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2ff9abf68e757219f18bf2afb7a1c1194b2c791d",
+      "size": 1177,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/2ff9abf68e757219f18bf2afb7a1c1194b2c791d"
+    },
+    {
+      "path": "assets/device/classes/oven_and_microwave.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1361b72448e98f61407d7c7a7a999db9bdc873e5",
+      "size": 1759,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/1361b72448e98f61407d7c7a7a999db9bdc873e5"
+    },
+    {
+      "path": "assets/device/classes/petfeeder.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2e7bc530a6756db60958a05fb8f830678e466b53",
+      "size": 1615,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/2e7bc530a6756db60958a05fb8f830678e466b53"
+    },
+    {
+      "path": "assets/device/classes/pump.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "34bf82307d936a7b2afda7f3eb944f37f1b587f1",
+      "size": 1121,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/34bf82307d936a7b2afda7f3eb944f37f1b587f1"
+    },
+    {
+      "path": "assets/device/classes/radiator.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "541dc2c8a20f8ad55c3c2590c3b0d79f137ca55a",
+      "size": 1277,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/541dc2c8a20f8ad55c3c2590c3b0d79f137ca55a"
+    },
+    {
+      "path": "assets/device/classes/relay.json",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "cba11ea2d49bb50234cad1f61ed80331b32c8e30",
+      "size": 2213,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/cba11ea2d49bb50234cad1f61ed80331b32c8e30"
+    },
+    {
+      "path": "assets/device/classes/remote.json",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "c7f543cc875d78a2a1618e0a302ebfe6e73fc58f",
+      "size": 1854,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/c7f543cc875d78a2a1618e0a302ebfe6e73fc58f"
+    },
+    {
+      "path": "assets/device/classes/scooter.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3dffa61999ffc31246b898eba134deab84d3e661",
+      "size": 1218,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/3dffa61999ffc31246b898eba134deab84d3e661"
+    },
+    {
+      "path": "assets/device/classes/sensor.json",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "5d234882506b917bf86d812492ae18346c28ffc3",
+      "size": 1718,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/5d234882506b917bf86d812492ae18346c28ffc3"
+    },
+    {
+      "path": "assets/device/classes/service.json",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "30738f93c20a5815a69f12989afb3da0a129c3fb",
+      "size": 2054,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/30738f93c20a5815a69f12989afb3da0a129c3fb"
+    },
+    {
+      "path": "assets/device/classes/settopbox.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f1367db1dd7c28116d3792e3bafdd9665f7c4f41",
+      "size": 1332,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/f1367db1dd7c28116d3792e3bafdd9665f7c4f41"
+    },
+    {
+      "path": "assets/device/classes/shutterblinds.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a6e0702169498d8ebb8417d2faf33118570333f2",
+      "size": 1305,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/a6e0702169498d8ebb8417d2faf33118570333f2"
+    },
+    {
+      "path": "assets/device/classes/siren.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8c1d9ff750059d855964e290985e81976317b8ff",
+      "size": 1196,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/8c1d9ff750059d855964e290985e81976317b8ff"
+    },
+    {
+      "path": "assets/device/classes/smokealarm.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2768e77be141942dbf531b0fe0398cc600df0fd3",
+      "size": 2353,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/2768e77be141942dbf531b0fe0398cc600df0fd3"
+    },
+    {
+      "path": "assets/device/classes/socket.json",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "a8d5340ad074cd23b136d256085e9155e4921f64",
+      "size": 4174,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/a8d5340ad074cd23b136d256085e9155e4921f64"
+    },
+    {
+      "path": "assets/device/classes/solarpanel.json",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "1a16e4853319d11c0318078b7f419853dbf23373",
+      "size": 1320,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/1a16e4853319d11c0318078b7f419853dbf23373"
+    },
+    {
+      "path": "assets/device/classes/speaker.json",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "e8fda00b6279f61efcee66e532c9c322f96737e0",
+      "size": 2185,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/e8fda00b6279f61efcee66e532c9c322f96737e0"
+    },
+    {
+      "path": "assets/device/classes/sprinkler.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9798850f3543b513f53c6bc35fb1d1bba6061c4e",
+      "size": 1370,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/9798850f3543b513f53c6bc35fb1d1bba6061c4e"
+    },
+    {
+      "path": "assets/device/classes/sunshade.json",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "3e0f07f612b440d004d620dff70d10850f739fca",
+      "size": 1657,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/3e0f07f612b440d004d620dff70d10850f739fca"
+    },
+    {
+      "path": "assets/device/classes/thermostat.json",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "d4e2075bb8db7a709dad96072a24184e7093efef",
+      "size": 3367,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/d4e2075bb8db7a709dad96072a24184e7093efef"
+    },
+    {
+      "path": "assets/device/classes/tv.json",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "520c205021345931f917fd89defdab142e8c2a05",
+      "size": 1115,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/520c205021345931f917fd89defdab142e8c2a05"
+    },
+    {
+      "path": "assets/device/classes/vacuumcleaner.json",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "c8c350fb07d47b3b15b4ceeed35191cf08703da1",
+      "size": 2003,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/c8c350fb07d47b3b15b4ceeed35191cf08703da1"
+    },
+    {
+      "path": "assets/device/classes/vehicle.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "34f05ff9b6500e2365c339becc809142c5279d5d",
+      "size": 3055,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/34f05ff9b6500e2365c339becc809142c5279d5d"
+    },
+    {
+      "path": "assets/device/classes/washer.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "46f6f43a5713622e0fda02316e4cf01435518b85",
+      "size": 2421,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/46f6f43a5713622e0fda02316e4cf01435518b85"
+    },
+    {
+      "path": "assets/device/classes/washer_and_dryer.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "26cd1b553b7ab9f8d065e1bb6f6b6fbbbc2df065",
+      "size": 1970,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/26cd1b553b7ab9f8d065e1bb6f6b6fbbbc2df065"
+    },
+    {
+      "path": "assets/device/classes/waterheater.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "748d07a7f112b0d5328b8ff62730de237cef80c8",
+      "size": 1374,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/748d07a7f112b0d5328b8ff62730de237cef80c8"
+    },
+    {
+      "path": "assets/device/classes/waterpurifier.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "292e014960a8a38d973ece3d21406c955a42ed74",
+      "size": 1443,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/292e014960a8a38d973ece3d21406c955a42ed74"
+    },
+    {
+      "path": "assets/device/classes/watervalve.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "738bc28fc85c322f1c8f7a9f24788b1479829023",
+      "size": 1562,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/738bc28fc85c322f1c8f7a9f24788b1479829023"
+    },
+    {
+      "path": "assets/device/classes/windowcoverings.json",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "ec2a2a4e9f80a398a2f13c4499ab9c813bfec51c",
+      "size": 3006,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/ec2a2a4e9f80a398a2f13c4499ab9c813bfec51c"
+    },
+    {
+      "path": "assets/device/icons",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "4287a16390eae6013061ceb2e5626a263f0644b6",
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/trees/4287a16390eae6013061ceb2e5626a263f0644b6"
+    },
+    {
+      "path": "assets/device/icons/3d-printer.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "30d8dbaa290fa03315ab91dabd23e88e2dd68672",
+      "size": 2328,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/30d8dbaa290fa03315ab91dabd23e88e2dd68672"
+    },
+    {
+      "path": "assets/device/icons/3d-printer2.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "11f149027b77862358aa143a53bc1976ea33c243",
+      "size": 2184,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/11f149027b77862358aa143a53bc1976ea33c243"
+    },
+    {
+      "path": "assets/device/icons/air-purifier.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5c41938f2c9976c5a2a2ae74f1296e01095be0e1",
+      "size": 6950,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/5c41938f2c9976c5a2a2ae74f1296e01095be0e1"
+    },
+    {
+      "path": "assets/device/icons/airfryer.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "55001a4a6572440b5bdb84a19cb6f179898fa1d2",
+      "size": 6636,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/55001a4a6572440b5bdb84a19cb6f179898fa1d2"
+    },
+    {
+      "path": "assets/device/icons/aquarium.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e6765b083971afe836faa5dd348a357fe3c67b70",
+      "size": 2573,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/e6765b083971afe836faa5dd348a357fe3c67b70"
+    },
+    {
+      "path": "assets/device/icons/assistant-amazon-alexa.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d6f7ae38fb19499d04d244eeb26a8125ca9e3b0a",
+      "size": 3073,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/d6f7ae38fb19499d04d244eeb26a8125ca9e3b0a"
+    },
+    {
+      "path": "assets/device/icons/assistant-google-home.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d564b37c93621d876ddb54c075311a18dc80c4cd",
+      "size": 781,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/d564b37c93621d876ddb54c075311a18dc80c4cd"
+    },
+    {
+      "path": "assets/device/icons/aux-cable.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bba499aad9f0900458a585a16b76a3dce4fba97b",
+      "size": 3513,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/bba499aad9f0900458a585a16b76a3dce4fba97b"
+    },
+    {
+      "path": "assets/device/icons/avr.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f66e39f4a5ea9560b58b4e6cd1b1cf1a9914a92e",
+      "size": 2353,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/f66e39f4a5ea9560b58b4e6cd1b1cf1a9914a92e"
+    },
+    {
+      "path": "assets/device/icons/bed-double.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7edc1ac5a2477e0da417bf43fed8c4e5d21e5426",
+      "size": 1962,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/7edc1ac5a2477e0da417bf43fed8c4e5d21e5426"
+    },
+    {
+      "path": "assets/device/icons/bike.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dd2817243303551021a75633f2dde388d4e17ec2",
+      "size": 1153,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/dd2817243303551021a75633f2dde388d4e17ec2"
+    },
+    {
+      "path": "assets/device/icons/blender.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fb4918e02a14306849bd134a89cc1e1e6fcd2552",
+      "size": 2171,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/fb4918e02a14306849bd134a89cc1e1e6fcd2552"
+    },
+    {
+      "path": "assets/device/icons/blinds.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9dc83afc06d572692d589ca04a99e8690188f51f",
+      "size": 1915,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/9dc83afc06d572692d589ca04a99e8690188f51f"
+    },
+    {
+      "path": "assets/device/icons/camera.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c4ac2fe42d0889b3969125a0e27688120402c372",
+      "size": 1875,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/c4ac2fe42d0889b3969125a0e27688120402c372"
+    },
+    {
+      "path": "assets/device/icons/car-charger.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6daaa2781e4025f67113eebebf3fe2be6e2cce52",
+      "size": 3557,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/6daaa2781e4025f67113eebebf3fe2be6e2cce52"
+    },
+    {
+      "path": "assets/device/icons/cd.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ed8f76b83c507bb1887588bf7f5ac8560cda0f49",
+      "size": 1156,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/ed8f76b83c507bb1887588bf7f5ac8560cda0f49"
+    },
+    {
+      "path": "assets/device/icons/christmas-lights.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7c9a8f026f58766d74c9554f0ee5aae93f6eb1e6",
+      "size": 3564,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/7c9a8f026f58766d74c9554f0ee5aae93f6eb1e6"
+    },
+    {
+      "path": "assets/device/icons/christmas-tree.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0fb11303ae814422daced69fd6d4b4498376a14d",
+      "size": 6712,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/0fb11303ae814422daced69fd6d4b4498376a14d"
+    },
+    {
+      "path": "assets/device/icons/circuit-breaker.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4cfa587cdef6bf2fe6fda84a154fd5bb6a92130d",
+      "size": 3336,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/4cfa587cdef6bf2fe6fda84a154fd5bb6a92130d"
+    },
+    {
+      "path": "assets/device/icons/climate.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2e40e63b410ac4f6a5792f91257d10c367143a09",
+      "size": 1349,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/2e40e63b410ac4f6a5792f91257d10c367143a09"
+    },
+    {
+      "path": "assets/device/icons/climate2.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a0465eb95e1a9287d9440d87ec87ec7ad8a18695",
+      "size": 1694,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/a0465eb95e1a9287d9440d87ec87ec7ad8a18695"
+    },
+    {
+      "path": "assets/device/icons/climate3.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f4fd6e5494e359c0ca360a0250dd931afa92fb3d",
+      "size": 1008,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/f4fd6e5494e359c0ca360a0250dd931afa92fb3d"
+    },
+    {
+      "path": "assets/device/icons/clock.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "347957cc199764e9c8b687c0937e1b85b23679b7",
+      "size": 523,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/347957cc199764e9c8b687c0937e1b85b23679b7"
+    },
+    {
+      "path": "assets/device/icons/clock2.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "83b3dfd93c8045e3048809add63d61ae023e2b61",
+      "size": 2263,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/83b3dfd93c8045e3048809add63d61ae023e2b61"
+    },
+    {
+      "path": "assets/device/icons/coffee-machine.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ce93cbcb066f86acc77fe80e397deb760aac243f",
+      "size": 2020,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/ce93cbcb066f86acc77fe80e397deb760aac243f"
+    },
+    {
+      "path": "assets/device/icons/coffee-machine2.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "024c9fe50c85105a1f8ef2417bd7bfbc78754f55",
+      "size": 2005,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/024c9fe50c85105a1f8ef2417bd7bfbc78754f55"
+    },
+    {
+      "path": "assets/device/icons/coffee-machine3.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "21194923fbc342b42d411c7ca59175c7e2b4c07b",
+      "size": 5791,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/21194923fbc342b42d411c7ca59175c7e2b4c07b"
+    },
+    {
+      "path": "assets/device/icons/controller-double.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5f74fb42ee08b117358f281d0d693a993844d2c4",
+      "size": 1689,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/5f74fb42ee08b117358f281d0d693a993844d2c4"
+    },
+    {
+      "path": "assets/device/icons/controller-octuple.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e9c87e665d6950ffecbfd6decf30b56996f5486c",
+      "size": 1970,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/e9c87e665d6950ffecbfd6decf30b56996f5486c"
+    },
+    {
+      "path": "assets/device/icons/controller-quadruple.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5fcded0f0fdc0aa708e9f6d0b4e9eb0d9eabb935",
+      "size": 1839,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/5fcded0f0fdc0aa708e9f6d0b4e9eb0d9eabb935"
+    },
+    {
+      "path": "assets/device/icons/cooking-plate.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "58e11ed464b160129d5bd5f928d0cd0b324a87fe",
+      "size": 1350,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/58e11ed464b160129d5bd5f928d0cd0b324a87fe"
+    },
+    {
+      "path": "assets/device/icons/curtains.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d0ac48cb9ed55de5895cf7929c5077cf04161432",
+      "size": 2488,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/d0ac48cb9ed55de5895cf7929c5077cf04161432"
+    },
+    {
+      "path": "assets/device/icons/cv.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1677f447803ca61bebc78774a4b75bc4e6d98018",
+      "size": 4160,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/1677f447803ca61bebc78774a4b75bc4e6d98018"
+    },
+    {
+      "path": "assets/device/icons/dimmer-double.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "57a41552ff3801e400ce8fd782b309206564c2a2",
+      "size": 2868,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/57a41552ff3801e400ce8fd782b309206564c2a2"
+    },
+    {
+      "path": "assets/device/icons/dimmer-single.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "db7d656ca172573c875983a8d4d792a3dd0e3fc1",
+      "size": 1324,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/db7d656ca172573c875983a8d4d792a3dd0e3fc1"
+    },
+    {
+      "path": "assets/device/icons/door-window-sensor.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "67f06738c2798b554add302a20b4539b1628cfc4",
+      "size": 1055,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/67f06738c2798b554add302a20b4539b1628cfc4"
+    },
+    {
+      "path": "assets/device/icons/door.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b1fc2764ba08889cba034f63c4e7055eb5a6f9fc",
+      "size": 598,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/b1fc2764ba08889cba034f63c4e7055eb5a6f9fc"
+    },
+    {
+      "path": "assets/device/icons/doorbell.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "577e4e06574b9484c2f3672c29412ad0ebc2ee70",
+      "size": 1137,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/577e4e06574b9484c2f3672c29412ad0ebc2ee70"
+    },
+    {
+      "path": "assets/device/icons/doorbell2.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7551aa16c490c1037d0caa7a4852d5a39460fcf0",
+      "size": 1928,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/7551aa16c490c1037d0caa7a4852d5a39460fcf0"
+    },
+    {
+      "path": "assets/device/icons/dryer.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f11a63e2eb09e87f77b391395c99b38fc4d96ab0",
+      "size": 1145,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/f11a63e2eb09e87f77b391395c99b38fc4d96ab0"
+    },
+    {
+      "path": "assets/device/icons/dvd-bluray.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d2f97cb66ed6a4f0dfbb75ca9da43875cf4f74c1",
+      "size": 489,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/d2f97cb66ed6a4f0dfbb75ca9da43875cf4f74c1"
+    },
+    {
+      "path": "assets/device/icons/empty-dark.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "903d1155c8c67efa778e51544dd1c19310549f42",
+      "size": 156844,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/903d1155c8c67efa778e51544dd1c19310549f42"
+    },
+    {
+      "path": "assets/device/icons/empty-dark@2x.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "382054777feb4aa50d8acbeee188d15f317b2a17",
+      "size": 473428,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/382054777feb4aa50d8acbeee188d15f317b2a17"
+    },
+    {
+      "path": "assets/device/icons/empty-light.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "98c13577536d6a6a295fcea5fe5905694aa99dbb",
+      "size": 170604,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/98c13577536d6a6a295fcea5fe5905694aa99dbb"
+    },
+    {
+      "path": "assets/device/icons/empty-light@2x.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d93b05142586353da6d7ab288e54b1d3476aa795",
+      "size": 569445,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/d93b05142586353da6d7ab288e54b1d3476aa795"
+    },
+    {
+      "path": "assets/device/icons/energy-storage.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ee8aac737f9cf28754339d84feb4aafa21fc14f4",
+      "size": 840,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/ee8aac737f9cf28754339d84feb4aafa21fc14f4"
+    },
+    {
+      "path": "assets/device/icons/extractor-hood.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4a1026ac6a3aa93f61ff4b1760c5df5727adff73",
+      "size": 497,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/4a1026ac6a3aa93f61ff4b1760c5df5727adff73"
+    },
+    {
+      "path": "assets/device/icons/fan-ceiling.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e2eeb38fdeea3af840326712c41734868793d23f",
+      "size": 6522,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/e2eeb38fdeea3af840326712c41734868793d23f"
+    },
+    {
+      "path": "assets/device/icons/fan-standing.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7eb840cdb8cccf4a7f84058a31ccdee29271f5b3",
+      "size": 4282,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/7eb840cdb8cccf4a7f84058a31ccdee29271f5b3"
+    },
+    {
+      "path": "assets/device/icons/fan.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "008603455f83ab87159390062954f2fd8a0db551",
+      "size": 4451,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/008603455f83ab87159390062954f2fd8a0db551"
+    },
+    {
+      "path": "assets/device/icons/fan2.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "813194006b538d458b1765276048ef6bed4b0862",
+      "size": 2586,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/813194006b538d458b1765276048ef6bed4b0862"
+    },
+    {
+      "path": "assets/device/icons/fish.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0d803a4632681542b306ba05da51226b9562bdd2",
+      "size": 3965,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/0d803a4632681542b306ba05da51226b9562bdd2"
+    },
+    {
+      "path": "assets/device/icons/fridge.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "12f625d1b1483ad8d6561c36b79c25febc302c1f",
+      "size": 392,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/12f625d1b1483ad8d6561c36b79c25febc302c1f"
+    },
+    {
+      "path": "assets/device/icons/game.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d9eff07cc20280883879d82ae94e934b85a679fb",
+      "size": 1994,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/d9eff07cc20280883879d82ae94e934b85a679fb"
+    },
+    {
+      "path": "assets/device/icons/garage-door.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "64c4e166f545d39825a5f961be5d48a192cf66e5",
+      "size": 967,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/64c4e166f545d39825a5f961be5d48a192cf66e5"
+    },
+    {
+      "path": "assets/device/icons/generic-cube.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "74c6fadd519a203f6a1994e305dbadd050142282",
+      "size": 323,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/74c6fadd519a203f6a1994e305dbadd050142282"
+    },
+    {
+      "path": "assets/device/icons/generic-rectangle.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e604a7fcbab4254d70daad8fa53f16606e322ce0",
+      "size": 319,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/e604a7fcbab4254d70daad8fa53f16606e322ce0"
+    },
+    {
+      "path": "assets/device/icons/heat-pump-boiler.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "aeba94e9a77a16e0571456e8c557a33d2b37c7da",
+      "size": 650,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/aeba94e9a77a16e0571456e8c557a33d2b37c7da"
+    },
+    {
+      "path": "assets/device/icons/heating.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "217e9e3f9ce36f4cd52d7f972cb81a0132c07e44",
+      "size": 1513,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/217e9e3f9ce36f4cd52d7f972cb81a0132c07e44"
+    },
+    {
+      "path": "assets/device/icons/intercom.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d7514757c95a9c0c4813ed7b1aff4a6f7fa0e819",
+      "size": 720,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/d7514757c95a9c0c4813ed7b1aff4a6f7fa0e819"
+    },
+    {
+      "path": "assets/device/icons/inverter-micro.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "662253956385e012612c813b8b8420a07c607b51",
+      "size": 2898,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/662253956385e012612c813b8b8420a07c607b51"
+    },
+    {
+      "path": "assets/device/icons/inverter.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "20d13ae746e66cce1c22943126a93fa9f8c72243",
+      "size": 2366,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/20d13ae746e66cce1c22943126a93fa9f8c72243"
+    },
+    {
+      "path": "assets/device/icons/ipod.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "df48c2da8e5f20c752163ab1fe6060cf4fbf3770",
+      "size": 1631,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/df48c2da8e5f20c752163ab1fe6060cf4fbf3770"
+    },
+    {
+      "path": "assets/device/icons/kettle.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "14fc783812c6f9653a7236e01126dd84e1a02a26",
+      "size": 2874,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/14fc783812c6f9653a7236e01126dd84e1a02a26"
+    },
+    {
+      "path": "assets/device/icons/keys.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b1fc5ebc4233e5e95f483e547d88ee035c06446e",
+      "size": 3183,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/b1fc5ebc4233e5e95f483e547d88ee035c06446e"
+    },
+    {
+      "path": "assets/device/icons/laptop.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3cad055eb383e528e3b23b0cde1269d03a17da9b",
+      "size": 1024,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/3cad055eb383e528e3b23b0cde1269d03a17da9b"
+    },
+    {
+      "path": "assets/device/icons/led-driver.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4b7e37b7bd507a1e62505abf291b016cac412db3",
+      "size": 4295,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/4b7e37b7bd507a1e62505abf291b016cac412db3"
+    },
+    {
+      "path": "assets/device/icons/letterbox.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4c9443a70886799891d372a951d58cdca4322deb",
+      "size": 374,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/4c9443a70886799891d372a951d58cdca4322deb"
+    },
+    {
+      "path": "assets/device/icons/letterbox2.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3d65a7362b5561037c5f3fb18e7bb9959215845d",
+      "size": 1332,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/3d65a7362b5561037c5f3fb18e7bb9959215845d"
+    },
+    {
+      "path": "assets/device/icons/light-bulb.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7d274685ef3160783ed947a7478947c6b91b35b9",
+      "size": 1828,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/7d274685ef3160783ed947a7478947c6b91b35b9"
+    },
+    {
+      "path": "assets/device/icons/light-bulb2.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "43986a288714efefcabe588847d0a3d2571b59de",
+      "size": 2679,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/43986a288714efefcabe588847d0a3d2571b59de"
+    },
+    {
+      "path": "assets/device/icons/light-bulb3.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5b92d34aa588632fbb451d53db5915a505cd9273",
+      "size": 1695,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/5b92d34aa588632fbb451d53db5915a505cd9273"
+    },
+    {
+      "path": "assets/device/icons/light-children.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bdce0312f08e997e1285012ad1eedb5bbdc2a140",
+      "size": 1927,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/bdce0312f08e997e1285012ad1eedb5bbdc2a140"
+    },
+    {
+      "path": "assets/device/icons/light-children2.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "99628bf1f131eb59f051c48f36cfa70bb9474ffb",
+      "size": 7990,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/99628bf1f131eb59f051c48f36cfa70bb9474ffb"
+    },
+    {
+      "path": "assets/device/icons/light-children3.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c8d2e97ade956107bac3edf7ac9032155783aeaa",
+      "size": 1503,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/c8d2e97ade956107bac3edf7ac9032155783aeaa"
+    },
+    {
+      "path": "assets/device/icons/light-desk.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "662a1224e81b7bea6b1c21552f46d4735f51cedd",
+      "size": 1705,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/662a1224e81b7bea6b1c21552f46d4735f51cedd"
+    },
+    {
+      "path": "assets/device/icons/light-group.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0039d18ef69cf96f1d61223ee4b0475523a889e9",
+      "size": 16959,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/0039d18ef69cf96f1d61223ee4b0475523a889e9"
+    },
+    {
+      "path": "assets/device/icons/light-hanging.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1df94855472462815ecc60d626f06136955578e8",
+      "size": 864,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/1df94855472462815ecc60d626f06136955578e8"
+    },
+    {
+      "path": "assets/device/icons/light-hanging10.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3be0d4d62869f57d65dc53cc271530614944c9da",
+      "size": 2029,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/3be0d4d62869f57d65dc53cc271530614944c9da"
+    },
+    {
+      "path": "assets/device/icons/light-hanging11.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "727a3fd88062419be4025c99816dbf6b96f056b9",
+      "size": 710,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/727a3fd88062419be4025c99816dbf6b96f056b9"
+    },
+    {
+      "path": "assets/device/icons/light-hanging12.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6e91c41e4efdbd46039068c2aebb50129520fb49",
+      "size": 2080,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/6e91c41e4efdbd46039068c2aebb50129520fb49"
+    },
+    {
+      "path": "assets/device/icons/light-hanging13.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f99ce0de3101b1128c99d46d357874713feb7909",
+      "size": 1265,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/f99ce0de3101b1128c99d46d357874713feb7909"
+    },
+    {
+      "path": "assets/device/icons/light-hanging14.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9e2fa2b44ee749d904697f8a71dd5b9e46898224",
+      "size": 4356,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/9e2fa2b44ee749d904697f8a71dd5b9e46898224"
+    },
+    {
+      "path": "assets/device/icons/light-hanging15.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1323b6103bde7c06749cd2836d54126a92206875",
+      "size": 308,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/1323b6103bde7c06749cd2836d54126a92206875"
+    },
+    {
+      "path": "assets/device/icons/light-hanging16.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1fd3f98e1d548b738380ce3faf5cc8073c402785",
+      "size": 384,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/1fd3f98e1d548b738380ce3faf5cc8073c402785"
+    },
+    {
+      "path": "assets/device/icons/light-hanging17.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4d36cda61a30ecc073da0f38ba94a49523e86ff5",
+      "size": 1056,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/4d36cda61a30ecc073da0f38ba94a49523e86ff5"
+    },
+    {
+      "path": "assets/device/icons/light-hanging18.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2e7a5b2ecb3eda1482e622b726c34c8aed4c8fcd",
+      "size": 1319,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/2e7a5b2ecb3eda1482e622b726c34c8aed4c8fcd"
+    },
+    {
+      "path": "assets/device/icons/light-hanging19.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e9736ab4e9ae4d9b5608675d3328742d652c3376",
+      "size": 3639,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/e9736ab4e9ae4d9b5608675d3328742d652c3376"
+    },
+    {
+      "path": "assets/device/icons/light-hanging2.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2381784fc30f85f0e127151b302bf0b976f7560c",
+      "size": 696,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/2381784fc30f85f0e127151b302bf0b976f7560c"
+    },
+    {
+      "path": "assets/device/icons/light-hanging3.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "47201c2c82032134ad6ce6e5d92ce577d51ab42e",
+      "size": 600,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/47201c2c82032134ad6ce6e5d92ce577d51ab42e"
+    },
+    {
+      "path": "assets/device/icons/light-hanging4.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8c3e433f21ded0f955925a70bc4ef48dae71fe54",
+      "size": 1464,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/8c3e433f21ded0f955925a70bc4ef48dae71fe54"
+    },
+    {
+      "path": "assets/device/icons/light-hanging5.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7612b337c71ae4aa153f05a731874540606d9f52",
+      "size": 2737,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/7612b337c71ae4aa153f05a731874540606d9f52"
+    },
+    {
+      "path": "assets/device/icons/light-hanging6.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3db6c5fabf209db9e2d7ec71007faf0adc5bd27f",
+      "size": 2146,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/3db6c5fabf209db9e2d7ec71007faf0adc5bd27f"
+    },
+    {
+      "path": "assets/device/icons/light-hanging7.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fe67d8128484f23f7abbddb0b6ce22c7f7a8c22f",
+      "size": 2817,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/fe67d8128484f23f7abbddb0b6ce22c7f7a8c22f"
+    },
+    {
+      "path": "assets/device/icons/light-hanging8.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b3365fa8efd96069349dcd2fbd80b53f66f61431",
+      "size": 2648,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/b3365fa8efd96069349dcd2fbd80b53f66f61431"
+    },
+    {
+      "path": "assets/device/icons/light-hanging9.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "eed5e3e96962deaf233ae0b44dc25ec5fd08a7bf",
+      "size": 2069,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/eed5e3e96962deaf233ae0b44dc25ec5fd08a7bf"
+    },
+    {
+      "path": "assets/device/icons/light-led-strip.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0e235592a139f79a5d98db0a66e07680dd699224",
+      "size": 12998,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/0e235592a139f79a5d98db0a66e07680dd699224"
+    },
+    {
+      "path": "assets/device/icons/light-outdoor-spot.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3620eba6273ffd86066cb7ffc1acab52e22ca24b",
+      "size": 4625,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/3620eba6273ffd86066cb7ffc1acab52e22ca24b"
+    },
+    {
+      "path": "assets/device/icons/light-outdoor.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7d5cc8b53b04e8ce31efd0af60ad97dcbd1dc2ee",
+      "size": 1160,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/7d5cc8b53b04e8ce31efd0af60ad97dcbd1dc2ee"
+    },
+    {
+      "path": "assets/device/icons/light-spot.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "03780d478a3d6966d66efcf17fce4f6177b6e295",
+      "size": 2213,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/03780d478a3d6966d66efcf17fce4f6177b6e295"
+    },
+    {
+      "path": "assets/device/icons/light-spot2.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6526aecf56ba2bd812bf46fede4926f0d9140859",
+      "size": 1912,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/6526aecf56ba2bd812bf46fede4926f0d9140859"
+    },
+    {
+      "path": "assets/device/icons/light-spot3.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1cb487b222a9edf195fefc9e3550f6536eb59eb4",
+      "size": 1496,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/1cb487b222a9edf195fefc9e3550f6536eb59eb4"
+    },
+    {
+      "path": "assets/device/icons/light-standing.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "161b4369102160b351d09eeb35282a3b5db81e76",
+      "size": 847,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/161b4369102160b351d09eeb35282a3b5db81e76"
+    },
+    {
+      "path": "assets/device/icons/light-standing2.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5defaa795532880a06aa92b001f31d0c32a63dc3",
+      "size": 2647,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/5defaa795532880a06aa92b001f31d0c32a63dc3"
+    },
+    {
+      "path": "assets/device/icons/light-standing3.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "287374bdc0749afbdac4984c26009d4bad665ce8",
+      "size": 986,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/287374bdc0749afbdac4984c26009d4bad665ce8"
+    },
+    {
+      "path": "assets/device/icons/light-standing4.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "39e02546481b7283560dcd360a8c5255fecc03f7",
+      "size": 3411,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/39e02546481b7283560dcd360a8c5255fecc03f7"
+    },
+    {
+      "path": "assets/device/icons/light-standing5.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "29e29ecb688cdc120d139ba55608ef492c6d6584",
+      "size": 948,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/29e29ecb688cdc120d139ba55608ef492c6d6584"
+    },
+    {
+      "path": "assets/device/icons/light-table.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "eb2d3bcdd47461938fe049a61dabb5209adb2460",
+      "size": 3064,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/eb2d3bcdd47461938fe049a61dabb5209adb2460"
+    },
+    {
+      "path": "assets/device/icons/light-table10.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b178e884882810554afaae6893601cfdac97ecdc",
+      "size": 841,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/b178e884882810554afaae6893601cfdac97ecdc"
+    },
+    {
+      "path": "assets/device/icons/light-table11.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2e4891316edd39e87e4ea00f80680414049b406e",
+      "size": 3311,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/2e4891316edd39e87e4ea00f80680414049b406e"
+    },
+    {
+      "path": "assets/device/icons/light-table12.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4d90dd59e35661c1ff1eb36a1f75db71b084aeb7",
+      "size": 924,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/4d90dd59e35661c1ff1eb36a1f75db71b084aeb7"
+    },
+    {
+      "path": "assets/device/icons/light-table13.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "03c1a1979b6c6979de1cfe7f654ba253be43dc05",
+      "size": 1202,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/03c1a1979b6c6979de1cfe7f654ba253be43dc05"
+    },
+    {
+      "path": "assets/device/icons/light-table14.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9010c812340e8927e41842a5545deb6ff0a062be",
+      "size": 2994,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/9010c812340e8927e41842a5545deb6ff0a062be"
+    },
+    {
+      "path": "assets/device/icons/light-table15.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3d0849a9b30a43c6f8a5a85bb259b46a9c3a81ea",
+      "size": 15546,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/3d0849a9b30a43c6f8a5a85bb259b46a9c3a81ea"
+    },
+    {
+      "path": "assets/device/icons/light-table2.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "792a508db6e69a1bc8839bbd01287823bfe26c8e",
+      "size": 1655,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/792a508db6e69a1bc8839bbd01287823bfe26c8e"
+    },
+    {
+      "path": "assets/device/icons/light-table3.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "703264a2476a9f2c59b5e489c193d57d6fd0f2d2",
+      "size": 1326,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/703264a2476a9f2c59b5e489c193d57d6fd0f2d2"
+    },
+    {
+      "path": "assets/device/icons/light-table4.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7b0311ed02a183154b01776649db62c675f48027",
+      "size": 5840,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/7b0311ed02a183154b01776649db62c675f48027"
+    },
+    {
+      "path": "assets/device/icons/light-table5.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3d02fa75a54f09ca6f8249e6a527f0fa0768f787",
+      "size": 858,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/3d02fa75a54f09ca6f8249e6a527f0fa0768f787"
+    },
+    {
+      "path": "assets/device/icons/light-table6.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a7a2c5d243cd7ad03ce80ec41164fac901668fcc",
+      "size": 2334,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/a7a2c5d243cd7ad03ce80ec41164fac901668fcc"
+    },
+    {
+      "path": "assets/device/icons/light-table7.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9754fb48b0a99401e6d63833b98b74834ebe4192",
+      "size": 1675,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/9754fb48b0a99401e6d63833b98b74834ebe4192"
+    },
+    {
+      "path": "assets/device/icons/light-table8.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0250b10a82597a261c6933fdf46292211dd2f99d",
+      "size": 1070,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/0250b10a82597a261c6933fdf46292211dd2f99d"
+    },
+    {
+      "path": "assets/device/icons/light-table9.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a116b821fd2124e18db349998f24e60faf290011",
+      "size": 2315,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/a116b821fd2124e18db349998f24e60faf290011"
+    },
+    {
+      "path": "assets/device/icons/light-wall-mounted.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "571e0dee1aab53ca47b5332de44fc62809e0fcd4",
+      "size": 689,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/571e0dee1aab53ca47b5332de44fc62809e0fcd4"
+    },
+    {
+      "path": "assets/device/icons/light-wall-mounted2.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4cfd235c8588704d775ee2d0bec2765c3b398936",
+      "size": 1541,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/4cfd235c8588704d775ee2d0bec2765c3b398936"
+    },
+    {
+      "path": "assets/device/icons/light-wall-mounted3.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "54df6d944439a50a31ff11065fa9c99ca85bfa7d",
+      "size": 585,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/54df6d944439a50a31ff11065fa9c99ca85bfa7d"
+    },
+    {
+      "path": "assets/device/icons/light-wall-mounted4.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "44a1254b4234a1d72b6a61c39a33b9de2f42ce89",
+      "size": 3628,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/44a1254b4234a1d72b6a61c39a33b9de2f42ce89"
+    },
+    {
+      "path": "assets/device/icons/lock.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d2176d57139f008ca5c4d6c586948ef414dfc5a6",
+      "size": 1654,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/d2176d57139f008ca5c4d6c586948ef414dfc5a6"
+    },
+    {
+      "path": "assets/device/icons/lp.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cfcec33fed0f41b7bdba7384127468545473e6d9",
+      "size": 1142,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/cfcec33fed0f41b7bdba7384127468545473e6d9"
+    },
+    {
+      "path": "assets/device/icons/microwave.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b3787345b3334760d46ef54421ab51493e22b822",
+      "size": 1065,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/b3787345b3334760d46ef54421ab51493e22b822"
+    },
+    {
+      "path": "assets/device/icons/module-dimmer.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "82422140adc2d5d4cdd0300771f342470cf0a74f",
+      "size": 4664,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/82422140adc2d5d4cdd0300771f342470cf0a74f"
+    },
+    {
+      "path": "assets/device/icons/monitor-crt.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e8dde33b0b3d14780de8c02a687bc829990cbd3c",
+      "size": 1253,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/e8dde33b0b3d14780de8c02a687bc829990cbd3c"
+    },
+    {
+      "path": "assets/device/icons/monitor.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c40eba00e631ff11d755c4b9e1d897044a2116de",
+      "size": 949,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/c40eba00e631ff11d755c4b9e1d897044a2116de"
+    },
+    {
+      "path": "assets/device/icons/motion-sensor.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c7323812722620571ae1db7ed747314e88e04680",
+      "size": 1125,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/c7323812722620571ae1db7ed747314e88e04680"
+    },
+    {
+      "path": "assets/device/icons/multimedia.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9f396a3d786c4ed87bd9bb36e4dd825f5074dc13",
+      "size": 3090,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/9f396a3d786c4ed87bd9bb36e4dd825f5074dc13"
+    },
+    {
+      "path": "assets/device/icons/nas.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a9b52dba88f8aac3b9b3a433e2bdd398e990048c",
+      "size": 3122,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/a9b52dba88f8aac3b9b3a433e2bdd398e990048c"
+    },
+    {
+      "path": "assets/device/icons/network-switch.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "db6b16fb0f145f5bbe94894df957dcfedd8ecdad",
+      "size": 1201,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/db6b16fb0f145f5bbe94894df957dcfedd8ecdad"
+    },
+    {
+      "path": "assets/device/icons/network-switch2.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1985d66a5ebd58fbc233c6fc4bdf6cef79d5e8ab",
+      "size": 1610,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/1985d66a5ebd58fbc233c6fc4bdf6cef79d5e8ab"
+    },
+    {
+      "path": "assets/device/icons/oven.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "31beaf2c08d449b5bc3efb4c74dcab184f43f4fe",
+      "size": 715,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/31beaf2c08d449b5bc3efb4c74dcab184f43f4fe"
+    },
+    {
+      "path": "assets/device/icons/pc-game.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "09f10de35f2abfcd93c47f647245bdbc2d66440a",
+      "size": 4432,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/09f10de35f2abfcd93c47f647245bdbc2d66440a"
+    },
+    {
+      "path": "assets/device/icons/pc.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4340b5222e2ee2564492342554af8898924d1e61",
+      "size": 1921,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/4340b5222e2ee2564492342554af8898924d1e61"
+    },
+    {
+      "path": "assets/device/icons/plant1.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8589d9dce5e0db08d091926dcde8890349b70393",
+      "size": 3482,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/8589d9dce5e0db08d091926dcde8890349b70393"
+    },
+    {
+      "path": "assets/device/icons/plant2.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fc5620318f090dde46aa8cc1aca15369c433e96e",
+      "size": 5275,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/fc5620318f090dde46aa8cc1aca15369c433e96e"
+    },
+    {
+      "path": "assets/device/icons/plant3.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "622d66a8d23cebca4a319a6e5515f033ed50851f",
+      "size": 2614,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/622d66a8d23cebca4a319a6e5515f033ed50851f"
+    },
+    {
+      "path": "assets/device/icons/plant4.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2d931cc0c7b018ed5236e0c45564565c8b3971a2",
+      "size": 20764,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/2d931cc0c7b018ed5236e0c45564565c8b3971a2"
+    },
+    {
+      "path": "assets/device/icons/plant5.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "358ec623b62f7fa35e48e498d00b6fcb428921c8",
+      "size": 4978,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/358ec623b62f7fa35e48e498d00b6fcb428921c8"
+    },
+    {
+      "path": "assets/device/icons/plant6.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f60c0f215c49e8dacf4b0e97e7f04ddfeb68da28",
+      "size": 6380,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/f60c0f215c49e8dacf4b0e97e7f04ddfeb68da28"
+    },
+    {
+      "path": "assets/device/icons/plant7.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "521801e2cab3f096c2b19e7911c97e7a6bee7977",
+      "size": 3654,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/521801e2cab3f096c2b19e7911c97e7a6bee7977"
+    },
+    {
+      "path": "assets/device/icons/plant8.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c5f61403da61a7375377a933fe8410c8b67cd45e",
+      "size": 6558,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/c5f61403da61a7375377a933fe8410c8b67cd45e"
+    },
+    {
+      "path": "assets/device/icons/plant9.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d68f2c22d5a026d933967c35687008c1d22edaec",
+      "size": 6002,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/d68f2c22d5a026d933967c35687008c1d22edaec"
+    },
+    {
+      "path": "assets/device/icons/plug.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "83cd036986c303fb3b1e7594a8f7f3d84daa4f29",
+      "size": 2476,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/83cd036986c303fb3b1e7594a8f7f3d84daa4f29"
+    },
+    {
+      "path": "assets/device/icons/plug2.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2d4a6f80f14da2d14c19ef35a7514e8a7152d68c",
+      "size": 2562,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/2d4a6f80f14da2d14c19ef35a7514e8a7152d68c"
+    },
+    {
+      "path": "assets/device/icons/plug3.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f0d797584b7823c1e58f93d8b44949cf4ae78c1e",
+      "size": 1191,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/f0d797584b7823c1e58f93d8b44949cf4ae78c1e"
+    },
+    {
+      "path": "assets/device/icons/plug4.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6c37730e67b6b63e5744aa77399778ee4687d567",
+      "size": 1247,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/6c37730e67b6b63e5744aa77399778ee4687d567"
+    },
+    {
+      "path": "assets/device/icons/plug5.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "28faac353305f076eb47863e2d7e89b14a9d80b0",
+      "size": 1127,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/28faac353305f076eb47863e2d7e89b14a9d80b0"
+    },
+    {
+      "path": "assets/device/icons/plug6.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6569b04b9bade54df088e27912105e51fb645ebe",
+      "size": 1190,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/6569b04b9bade54df088e27912105e51fb645ebe"
+    },
+    {
+      "path": "assets/device/icons/plug7.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "944be0df9c73c8aa657c95d71291b9f9d504101c",
+      "size": 1152,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/944be0df9c73c8aa657c95d71291b9f9d504101c"
+    },
+    {
+      "path": "assets/device/icons/plug8.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a6e99e50527de01b0c8f9f8bd45a9aa3e7803a81",
+      "size": 1197,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/a6e99e50527de01b0c8f9f8bd45a9aa3e7803a81"
+    },
+    {
+      "path": "assets/device/icons/powerstrip.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a9758ab45a639e1eddde6d8c98db35e79e523342",
+      "size": 7098,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/a9758ab45a639e1eddde6d8c98db35e79e523342"
+    },
+    {
+      "path": "assets/device/icons/powerstrip2.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a911bccac3f6bed78d948d6fc183edd7809be529",
+      "size": 5626,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/a911bccac3f6bed78d948d6fc183edd7809be529"
+    },
+    {
+      "path": "assets/device/icons/powerstrip3.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "49b02c452507b2499185460131fcf9f38d4692aa",
+      "size": 6146,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/49b02c452507b2499185460131fcf9f38d4692aa"
+    },
+    {
+      "path": "assets/device/icons/powerstrip4.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ad2789f363447915ea5586a217bf57994808c3fe",
+      "size": 5331,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/ad2789f363447915ea5586a217bf57994808c3fe"
+    },
+    {
+      "path": "assets/device/icons/pre-amp.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a8b590f72b899d1c45ae5dd9db795e2ea61564f7",
+      "size": 1283,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/a8b590f72b899d1c45ae5dd9db795e2ea61564f7"
+    },
+    {
+      "path": "assets/device/icons/printer.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b5a74161cb4d8dbf1252dff0ecafeb4cf744876e",
+      "size": 1843,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/b5a74161cb4d8dbf1252dff0ecafeb4cf744876e"
+    },
+    {
+      "path": "assets/device/icons/projector.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a8419c20c307952b2f2e0f3d9b0eec40e9c49459",
+      "size": 2009,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/a8419c20c307952b2f2e0f3d9b0eec40e9c49459"
+    },
+    {
+      "path": "assets/device/icons/remote-ac.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "39006e2523e2280c263f2a095260bc5d2746b67c",
+      "size": 3303,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/39006e2523e2280c263f2a095260bc5d2746b67c"
+    },
+    {
+      "path": "assets/device/icons/remote-control.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1be8294f71b966f40fbd84f10e0458a0052e9961",
+      "size": 2448,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/1be8294f71b966f40fbd84f10e0458a0052e9961"
+    },
+    {
+      "path": "assets/device/icons/remote-tv.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6fb1c36cb375a5105eb12cddf765140ab6dc1f61",
+      "size": 6516,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/6fb1c36cb375a5105eb12cddf765140ab6dc1f61"
+    },
+    {
+      "path": "assets/device/icons/router.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ea29b2ae76b61bd45e9a58d9bfdb2dc87f6f4611",
+      "size": 1319,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/ea29b2ae76b61bd45e9a58d9bfdb2dc87f6f4611"
+    },
+    {
+      "path": "assets/device/icons/scale.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9f201ca423351f960f2744c597a8371799417279",
+      "size": 1210,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/9f201ca423351f960f2744c597a8371799417279"
+    },
+    {
+      "path": "assets/device/icons/sedan.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f155174926a82a8407f7743633a2e445d04f8e7b",
+      "size": 1322,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/f155174926a82a8407f7743633a2e445d04f8e7b"
+    },
+    {
+      "path": "assets/device/icons/sensor-air-quality.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "91ca8ea6787e524ee9c67c42c4dcd12cfa56955b",
+      "size": 1218,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/91ca8ea6787e524ee9c67c42c4dcd12cfa56955b"
+    },
+    {
+      "path": "assets/device/icons/sensor-humidity.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "16b40f3057bebe06df7822e9b9cf4fa074312016",
+      "size": 3033,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/16b40f3057bebe06df7822e9b9cf4fa074312016"
+    },
+    {
+      "path": "assets/device/icons/sensor-light.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ba2217143f57d07b5d5610f730840c8054f44484",
+      "size": 3044,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/ba2217143f57d07b5d5610f730840c8054f44484"
+    },
+    {
+      "path": "assets/device/icons/sensor-outdoor-motion.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "260f8f3b688414e94abaca7245bda8f76f25d033",
+      "size": 1454,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/260f8f3b688414e94abaca7245bda8f76f25d033"
+    },
+    {
+      "path": "assets/device/icons/sensor-temperature.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1dba5f439770cef5fde487a93a9289d435a9532b",
+      "size": 2784,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/1dba5f439770cef5fde487a93a9289d435a9532b"
+    },
+    {
+      "path": "assets/device/icons/sensor-water-leak.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "eac3bfad0ea8b5e4c0b0cb39054ae4d6362fcdce",
+      "size": 4864,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/eac3bfad0ea8b5e4c0b0cb39054ae4d6362fcdce"
+    },
+    {
+      "path": "assets/device/icons/set-top-box.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "339e9b61667e79223c8917933fc7bf2469853c2e",
+      "size": 650,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/339e9b61667e79223c8917933fc7bf2469853c2e"
+    },
+    {
+      "path": "assets/device/icons/smart-meter.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8951c663b69b2b4bd44a7338bb5bdadc4ec2f586",
+      "size": 887,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/8951c663b69b2b4bd44a7338bb5bdadc4ec2f586"
+    },
+    {
+      "path": "assets/device/icons/smart-meter2.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1886a6ab5d818173c6161d02a8fca7b6b4cb7acc",
+      "size": 690,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/1886a6ab5d818173c6161d02a8fca7b6b4cb7acc"
+    },
+    {
+      "path": "assets/device/icons/smart-meter3.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "33364b519abf997f29302af5d20bf33b18d0433b",
+      "size": 1619,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/33364b519abf997f29302af5d20bf33b18d0433b"
+    },
+    {
+      "path": "assets/device/icons/smartphone.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2d52eeb5a75d228f26be397714338007a5b6241d",
+      "size": 1304,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/2d52eeb5a75d228f26be397714338007a5b6241d"
+    },
+    {
+      "path": "assets/device/icons/smoke-detector.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dca7bf9ef552e6afcb1fed0adba5443cb4f01c23",
+      "size": 1164,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/dca7bf9ef552e6afcb1fed0adba5443cb4f01c23"
+    },
+    {
+      "path": "assets/device/icons/smoke-detector2.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7cde2964168a6ad0c226fa090bfa45dd3ee7eb1e",
+      "size": 1512,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/7cde2964168a6ad0c226fa090bfa45dd3ee7eb1e"
+    },
+    {
+      "path": "assets/device/icons/socket.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5baca374c97df44bcfe4754aa3ab27b1fe34b6eb",
+      "size": 2240,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/5baca374c97df44bcfe4754aa3ab27b1fe34b6eb"
+    },
+    {
+      "path": "assets/device/icons/socket2.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d6647f9408db022355fe5940e636ba65dd888151",
+      "size": 1195,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/d6647f9408db022355fe5940e636ba65dd888151"
+    },
+    {
+      "path": "assets/device/icons/socket3.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c26ead3761b588e313b63bc8441593e1855de071",
+      "size": 1123,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/c26ead3761b588e313b63bc8441593e1855de071"
+    },
+    {
+      "path": "assets/device/icons/socket4.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2d1bc03935603b01c65851fe5336237044732891",
+      "size": 1156,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/2d1bc03935603b01c65851fe5336237044732891"
+    },
+    {
+      "path": "assets/device/icons/solar-panels.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8fce69b5d78ffacae2cfcc53378ff6ceeb1904bc",
+      "size": 1137,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/8fce69b5d78ffacae2cfcc53378ff6ceeb1904bc"
+    },
+    {
+      "path": "assets/device/icons/soundbar.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "19e1dba554339db22c424f5858ee524721b52d2c",
+      "size": 1815,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/19e1dba554339db22c424f5858ee524721b52d2c"
+    },
+    {
+      "path": "assets/device/icons/speaker-stand.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7f17f9a4fdc659816bcb219ca5b9b88ec38378fd",
+      "size": 1054,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/7f17f9a4fdc659816bcb219ca5b9b88ec38378fd"
+    },
+    {
+      "path": "assets/device/icons/speaker.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a2019a6f8a15594f8e50542abc5e803e86f8127e",
+      "size": 2329,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/a2019a6f8a15594f8e50542abc5e803e86f8127e"
+    },
+    {
+      "path": "assets/device/icons/speakerset.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f5d6066953132c395615be261f208d8c71240c8f",
+      "size": 3429,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/f5d6066953132c395615be261f208d8c71240c8f"
+    },
+    {
+      "path": "assets/device/icons/stairs.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "15171e38a225468564a7fb066ed0d372500d9a03",
+      "size": 750,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/15171e38a225468564a7fb066ed0d372500d9a03"
+    },
+    {
+      "path": "assets/device/icons/streaming-box.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dea883090b328ed080a7304fd87fed2a8202d3c5",
+      "size": 4958,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/dea883090b328ed080a7304fd87fed2a8202d3c5"
+    },
+    {
+      "path": "assets/device/icons/subwoofer.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6150a3a5d873d81f0615700318669cb915e469a3",
+      "size": 1836,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/6150a3a5d873d81f0615700318669cb915e469a3"
+    },
+    {
+      "path": "assets/device/icons/sunshade.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3dfcf5fe8e694eed56ef579e8597c35abe0a58e3",
+      "size": 440,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/3dfcf5fe8e694eed56ef579e8597c35abe0a58e3"
+    },
+    {
+      "path": "assets/device/icons/sunshade2.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cae29a2a38ff3ca5197bf09b933972e46a4d5db4",
+      "size": 1977,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/cae29a2a38ff3ca5197bf09b933972e46a4d5db4"
+    },
+    {
+      "path": "assets/device/icons/suv.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d07c3462fb731997e6a28f7e6d2920301882f937",
+      "size": 1309,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/d07c3462fb731997e6a28f7e6d2920301882f937"
+    },
+    {
+      "path": "assets/device/icons/switch-double.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3bff40970f25d735fe291fd06b2c52126df96520",
+      "size": 1540,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/3bff40970f25d735fe291fd06b2c52126df96520"
+    },
+    {
+      "path": "assets/device/icons/switch-double2.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "21295ec5ea590150c01f4c23392744dbbb82c0dc",
+      "size": 3053,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/21295ec5ea590150c01f4c23392744dbbb82c0dc"
+    },
+    {
+      "path": "assets/device/icons/switch-double3.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "343ca6dad3bb405ba4cc66bfdfc266f3494b0b03",
+      "size": 2207,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/343ca6dad3bb405ba4cc66bfdfc266f3494b0b03"
+    },
+    {
+      "path": "assets/device/icons/switch-double4.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ddf8c7adb7988952196c1f6d25286320c61b51ea",
+      "size": 2473,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/ddf8c7adb7988952196c1f6d25286320c61b51ea"
+    },
+    {
+      "path": "assets/device/icons/switch-double5.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e1d78c7765753224fe0027e474c9e144270ce27d",
+      "size": 2630,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/e1d78c7765753224fe0027e474c9e144270ce27d"
+    },
+    {
+      "path": "assets/device/icons/switch-single.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b0d3b2fb2a9fbdf47ee619de046161d3b62c595f",
+      "size": 1511,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/b0d3b2fb2a9fbdf47ee619de046161d3b62c595f"
+    },
+    {
+      "path": "assets/device/icons/switch-single2.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fbe4702f6d11b730a5210e6a77b2e08689fa3ae1",
+      "size": 1721,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/fbe4702f6d11b730a5210e6a77b2e08689fa3ae1"
+    },
+    {
+      "path": "assets/device/icons/switch-single3.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "88697e484c688c3e51c939e422614af160fcce5d",
+      "size": 1645,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/88697e484c688c3e51c939e422614af160fcce5d"
+    },
+    {
+      "path": "assets/device/icons/switch-single4.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a8d1fd257ab77cc0ab777551fceb4b4fa0e0134a",
+      "size": 1753,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/a8d1fd257ab77cc0ab777551fceb4b4fa0e0134a"
+    },
+    {
+      "path": "assets/device/icons/switch-single5.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1ae5e880be736a229fb6181a2ac34aa508dade50",
+      "size": 1819,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/1ae5e880be736a229fb6181a2ac34aa508dade50"
+    },
+    {
+      "path": "assets/device/icons/switch.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "773d613dba82cf0ff6c38a47bdb4756f20d70de6",
+      "size": 1207,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/773d613dba82cf0ff6c38a47bdb4756f20d70de6"
+    },
+    {
+      "path": "assets/device/icons/tap.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dedd2eb02ce25c55731d95a138a8d38d917c0461",
+      "size": 2603,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/dedd2eb02ce25c55731d95a138a8d38d917c0461"
+    },
+    {
+      "path": "assets/device/icons/thermostat.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b63097b9e121b46d12ccaf263e5de05e73ae50f1",
+      "size": 3150,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/b63097b9e121b46d12ccaf263e5de05e73ae50f1"
+    },
+    {
+      "path": "assets/device/icons/toaster.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ec8e5d08b028e41c4d1e554c47fb6a5bf2c23d58",
+      "size": 3113,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/ec8e5d08b028e41c4d1e554c47fb6a5bf2c23d58"
+    },
+    {
+      "path": "assets/device/icons/truck.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ab30c5e4e0af90d80f9b3a993025633163b2ae6c",
+      "size": 1403,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/ab30c5e4e0af90d80f9b3a993025633163b2ae6c"
+    },
+    {
+      "path": "assets/device/icons/tv-av-combo.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "95c5511d8f2ecbb4e6cf6f8a3af9b59f8e7fdb0e",
+      "size": 848,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/95c5511d8f2ecbb4e6cf6f8a3af9b59f8e7fdb0e"
+    },
+    {
+      "path": "assets/device/icons/tv.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4d629834ee3ee21c3758345824d44020371cfe7f",
+      "size": 646,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/4d629834ee3ee21c3758345824d44020371cfe7f"
+    },
+    {
+      "path": "assets/device/icons/vacuum-cleaner.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e8e214cf587bd43df2a5c511f235aed0a2f28419",
+      "size": 2133,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/e8e214cf587bd43df2a5c511f235aed0a2f28419"
+    },
+    {
+      "path": "assets/device/icons/vcr.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f6678d75aed98cb25e83506d8c0d23e91c52486d",
+      "size": 489,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/f6678d75aed98cb25e83506d8c0d23e91c52486d"
+    },
+    {
+      "path": "assets/device/icons/ventilation.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7af77c1656f21541986121dd484104b3d4aedd1a",
+      "size": 1908,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/7af77c1656f21541986121dd484104b3d4aedd1a"
+    },
+    {
+      "path": "assets/device/icons/video-processor.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8cee6006484f4c32b62b94c5d89ffe588399ca3a",
+      "size": 436,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/8cee6006484f4c32b62b94c5d89ffe588399ca3a"
+    },
+    {
+      "path": "assets/device/icons/video-processor2.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "385772f6251690b98eb542bf5af699b69ac508ca",
+      "size": 962,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/385772f6251690b98eb542bf5af699b69ac508ca"
+    },
+    {
+      "path": "assets/device/icons/washing-machine.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "70fcb41cadb7544507bcba3649d6fbc4d7b730dd",
+      "size": 718,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/70fcb41cadb7544507bcba3649d6fbc4d7b730dd"
+    },
+    {
+      "path": "assets/device/icons/washing-machine2.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c316c317bf0c5c3ad6bb903242cf7a31d2488fe8",
+      "size": 1107,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/c316c317bf0c5c3ad6bb903242cf7a31d2488fe8"
+    },
+    {
+      "path": "assets/device/icons/water-meter.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "27bd7aa9b2de9b10010d925ecac1955417acefb4",
+      "size": 2534,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/27bd7aa9b2de9b10010d925ecac1955417acefb4"
+    },
+    {
+      "path": "assets/device/icons/window.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9b650f24aeead4b66216f8c1ec8c57abe6e67e58",
+      "size": 1053,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/9b650f24aeead4b66216f8c1ec8c57abe6e67e58"
+    },
+    {
+      "path": "assets/device/icons/window2.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "237be93da96eb92382da623038ba64a8656092b9",
+      "size": 980,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/237be93da96eb92382da623038ba64a8656092b9"
+    },
+    {
+      "path": "assets/device/icons/window3.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a65b77eead859a1cf493da0340a72003df97a17d",
+      "size": 723,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/a65b77eead859a1cf493da0340a72003df97a17d"
+    },
+    {
+      "path": "assets/energy",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "6b0c003d28002e3ad70086d82b6267ed64d7462a",
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/trees/6b0c003d28002e3ad70086d82b6267ed64d7462a"
+    },
+    {
+      "path": "assets/energy/currencies.json",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "50548ad14e53fae03d9da6a79e46d77f4b4edb3b",
+      "size": 1967,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/50548ad14e53fae03d9da6a79e46d77f4b4edb3b"
+    },
+    {
+      "path": "assets/media",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "bb76fc0de2c46f78c21e4405dc0f976e7dbe381c",
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/trees/bb76fc0de2c46f78c21e4405dc0f976e7dbe381c"
+    },
+    {
+      "path": "assets/media/codecs.json",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "489bfb2de111c1644542de7cdeee292d16266d86",
+      "size": 78,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/489bfb2de111c1644542de7cdeee292d16266d86"
+    },
+    {
+      "path": "crowdin.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c30ddd5f609bc40ce504acbfaf6ba4a3991d2289",
+      "size": 390,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/c30ddd5f609bc40ce504acbfaf6ba4a3991d2289"
+    },
+    {
+      "path": "examples",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "caa5cb0081fa53e8ef76b0bd2442e0a4eb025a75",
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/trees/caa5cb0081fa53e8ef76b0bd2442e0a4eb025a75"
+    },
+    {
+      "path": "examples/app.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7d488dccb9120fb5181e850ced2fbee2b1bef2a1",
+      "size": 190,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/7d488dccb9120fb5181e850ced2fbee2b1bef2a1"
+    },
+    {
+      "path": "examples/browser.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ad765f4d98cd55ce2d65d02d5666d08c36721ce4",
+      "size": 455,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/ad765f4d98cd55ce2d65d02d5666d08c36721ce4"
+    },
+    {
+      "path": "examples/capability.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "eb6abf8a4285ecc229b4b25b2030a9899f46dacc",
+      "size": 319,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/eb6abf8a4285ecc229b4b25b2030a9899f46dacc"
+    },
+    {
+      "path": "examples/device.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c593cca63865a6636c90d09f5cc2fd4b51f39ad7",
+      "size": 193,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/c593cca63865a6636c90d09f5cc2fd4b51f39ad7"
+    },
+    {
+      "path": "examples/energy.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c0614cb895de0e87b48e4dbca947a8dc97216d05",
+      "size": 153,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/c0614cb895de0e87b48e4dbca947a8dc97216d05"
+    },
+    {
+      "path": "examples/media.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "21d1a77a6690181be0ce695bda64db17f5a61fdc",
+      "size": 105,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/21d1a77a6690181be0ce695bda64db17f5a61fdc"
+    },
+    {
+      "path": "examples/react-native.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "80009f4c79930968a08e81199aa6beebdac42621",
+      "size": 160,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/80009f4c79930968a08e81199aa6beebdac42621"
+    },
+    {
+      "path": "examples/validate-app.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dd9c192fb6826405ef1b0f5dcf74d25a048a55a3",
+      "size": 302,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/dd9c192fb6826405ef1b0f5dcf74d25a048a55a3"
+    },
+    {
+      "path": "examples/validate-capabilities.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "80cd2ef6b2ff97c9b188c509f011a32009c57309",
+      "size": 449,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/80cd2ef6b2ff97c9b188c509f011a32009c57309"
+    },
+    {
+      "path": "examples/validate-capability.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bd15b9f4c4562605186d45e7f742a0b223dcc136",
+      "size": 438,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/bd15b9f4c4562605186d45e7f742a0b223dcc136"
+    },
+    {
+      "path": "examples/validate-classes.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a48667f79f7680016f0cc9e3dcd4ea5645f8e847",
+      "size": 316,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/a48667f79f7680016f0cc9e3dcd4ea5645f8e847"
+    },
+    {
+      "path": "examples/validate-signal-prontohex.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2c1c41a49050e9c0f8e4adeeade047ca109ed653",
+      "size": 667,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/2c1c41a49050e9c0f8e4adeeade047ca109ed653"
+    },
+    {
+      "path": "examples/validate-signal.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3c3ebd1646cbf86f2fb6a24de868a8b3af4bedca",
+      "size": 831,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/3c3ebd1646cbf86f2fb6a24de868a8b3af4bedca"
+    },
+    {
+      "path": "generated_locales",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "ee0adcae3c0ee85c1c41661f31b544b030f821dc",
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/trees/ee0adcae3c0ee85c1c41661f31b544b030f821dc"
+    },
+    {
+      "path": "generated_locales/ar.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b52cd19921081d4a0df0c2a63606817eb45d9b94",
+      "size": 139821,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/b52cd19921081d4a0df0c2a63606817eb45d9b94"
+    },
+    {
+      "path": "generated_locales/da.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1e8df54770cf8d0f751d9f62f47d240db8343a7c",
+      "size": 123305,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/1e8df54770cf8d0f751d9f62f47d240db8343a7c"
+    },
+    {
+      "path": "generated_locales/de.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b9a5d8bf119df917cb37b2bfc79fd261531b5fe0",
+      "size": 127244,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/b9a5d8bf119df917cb37b2bfc79fd261531b5fe0"
+    },
+    {
+      "path": "generated_locales/en.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a6e7354a300e4ef0200337fd6a32a822d9f087a7",
+      "size": 120897,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/a6e7354a300e4ef0200337fd6a32a822d9f087a7"
+    },
+    {
+      "path": "generated_locales/es.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "29714e49eb4f47438b586e589f3cd22da5cad7a5",
+      "size": 129528,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/29714e49eb4f47438b586e589f3cd22da5cad7a5"
+    },
+    {
+      "path": "generated_locales/fr.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2904fd4f037dc32d7066279fa8ac7e55f8e52def",
+      "size": 129802,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/2904fd4f037dc32d7066279fa8ac7e55f8e52def"
+    },
+    {
+      "path": "generated_locales/it.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "173b2def96e66884a0bb53f7575a472af4b97fbd",
+      "size": 128541,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/173b2def96e66884a0bb53f7575a472af4b97fbd"
+    },
+    {
+      "path": "generated_locales/ko.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "00a8ecb6b0aabbbc5be9f05dc3f850427aac8445",
+      "size": 129290,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/00a8ecb6b0aabbbc5be9f05dc3f850427aac8445"
+    },
+    {
+      "path": "generated_locales/nl.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "abcd7132f3f1fea1fa511c2be0072df766fa5655",
+      "size": 125568,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/abcd7132f3f1fea1fa511c2be0072df766fa5655"
+    },
+    {
+      "path": "generated_locales/no.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4082d9e5f0ba7805376c0e95a85c2e6dd24254f3",
+      "size": 121780,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/4082d9e5f0ba7805376c0e95a85c2e6dd24254f3"
+    },
+    {
+      "path": "generated_locales/pl.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "38587cc545df8b4ebce8be1a3f0faf655a88ecd9",
+      "size": 126867,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/38587cc545df8b4ebce8be1a3f0faf655a88ecd9"
+    },
+    {
+      "path": "generated_locales/ru.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "02e5995df79b45c3fa136a55629ac4a743601cda",
+      "size": 153618,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/02e5995df79b45c3fa136a55629ac4a743601cda"
+    },
+    {
+      "path": "generated_locales/sv.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0fa64071e5de2423d17bc42f0763be9b2fdd6f50",
+      "size": 122554,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/0fa64071e5de2423d17bc42f0763be9b2fdd6f50"
+    },
+    {
+      "path": "helpers",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "9dec5833ba3587d00ad16a724fae7f71b57e8629",
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/trees/9dec5833ba3587d00ad16a724fae7f71b57e8629"
+    },
+    {
+      "path": "helpers/index.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c0df174bf4c977ed4d1446dcabffdf00997acf7e",
+      "size": 914,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/c0df174bf4c977ed4d1446dcabffdf00997acf7e"
+    },
+    {
+      "path": "index.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "453c4a8f672fa727bfc1d79729c49b19a1e58a74",
+      "size": 1512,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/453c4a8f672fa727bfc1d79729c49b19a1e58a74"
+    },
+    {
+      "path": "lib",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "7ee719c2e1e2df43e27aa3696e7102a3a62c83bb",
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/trees/7ee719c2e1e2df43e27aa3696e7102a3a62c83bb"
+    },
+    {
+      "path": "lib/App",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "09aef7003f95ec619b2ed0bcbd27a5f75b37779f",
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/trees/09aef7003f95ec619b2ed0bcbd27a5f75b37779f"
+    },
+    {
+      "path": "lib/App/index.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7754aaf515c28c11e7f883920bebfc25e7721de8",
+      "size": 44892,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/7754aaf515c28c11e7f883920bebfc25e7721de8"
+    },
+    {
+      "path": "lib/Capability",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "984d26c55f37594d931283d3832b2fdd04ccbaa9",
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/trees/984d26c55f37594d931283d3832b2fdd04ccbaa9"
+    },
+    {
+      "path": "lib/Capability/index.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "017682a703dbf946e5746fd5eb7788505cd28c76",
+      "size": 3520,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/017682a703dbf946e5746fd5eb7788505cd28c76"
+    },
+    {
+      "path": "lib/Device",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "3c2cf065f2fad2b005237be1e4e5203e2cc23fc1",
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/trees/3c2cf065f2fad2b005237be1e4e5203e2cc23fc1"
+    },
+    {
+      "path": "lib/Device/index.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3ef6f95535ae235a1c5344f24c6357946063d6f0",
+      "size": 883,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/3ef6f95535ae235a1c5344f24c6357946063d6f0"
+    },
+    {
+      "path": "lib/Energy",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "07ade318e0d6d4a498bb3a799f553fc37c19b054",
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/trees/07ade318e0d6d4a498bb3a799f553fc37c19b054"
+    },
+    {
+      "path": "lib/Energy/index.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e109bb15346d8715c241f6b3b365cd4c813b7f56",
+      "size": 529,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/e109bb15346d8715c241f6b3b365cd4c813b7f56"
+    },
+    {
+      "path": "lib/Media",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "73c98ba8ddca838ec119bc2559288ac56a37e489",
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/trees/73c98ba8ddca838ec119bc2559288ac56a37e489"
+    },
+    {
+      "path": "lib/Media/index.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7a3c60d7f5d2c0ff70d8f668f4824a29778ddef9",
+      "size": 186,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/7a3c60d7f5d2c0ff70d8f668f4824a29778ddef9"
+    },
+    {
+      "path": "lib/Signal",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "6791d5a5d688c616171e9d08f31c14dc410cb525",
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/trees/6791d5a5d688c616171e9d08f31c14dc410cb525"
+    },
+    {
+      "path": "lib/Signal/index.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6e95b0c8c987ece13342c597d1cab02b711d7929",
+      "size": 2328,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/6e95b0c8c987ece13342c597d1cab02b711d7929"
+    },
+    {
+      "path": "lib/Signal/validators.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "859086bdd03fcc3940367f994cf87a10dc2a0212",
+      "size": 10421,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/859086bdd03fcc3940367f994cf87a10dc2a0212"
+    },
+    {
+      "path": "lib/Util",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "d3204199c8b46a3901c65c47eb95ec0c8ab769ed",
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/trees/d3204199c8b46a3901c65c47eb95ec0c8ab769ed"
+    },
+    {
+      "path": "lib/Util/index.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fc9d7eaa205884775ad8a4bd3f105d7e95030d67",
+      "size": 1469,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/fc9d7eaa205884775ad8a4bd3f105d7e95030d67"
+    },
+    {
+      "path": "package-lock.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b1cef978d0b98b73ae19c0481d1fd752210e2121",
+      "size": 330351,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/b1cef978d0b98b73ae19c0481d1fd752210e2121"
+    },
+    {
+      "path": "package.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b070453eb9617c0a256a9b8b0acb674c4ab39d13",
+      "size": 1113,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/b070453eb9617c0a256a9b8b0acb674c4ab39d13"
+    },
+    {
+      "path": "react-native",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "4f5aa109f8de9ebe146f54686df810f569e6550e",
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/trees/4f5aa109f8de9ebe146f54686df810f569e6550e"
+    },
+    {
+      "path": "react-native/index.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c3ef10a095005793cbe3090437534e90bee44967",
+      "size": 265,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/c3ef10a095005793cbe3090437534e90bee44967"
+    },
+    {
+      "path": "scripts",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "fbdbc537e69df18d4b65203b11de8b9a0afda923",
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/trees/fbdbc537e69df18d4b65203b11de8b9a0afda923"
+    },
+    {
+      "path": "scripts/apply-locale-files.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e68ee394d64645304c1e6de0dc4fe5efa5bc8942",
+      "size": 1296,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/e68ee394d64645304c1e6de0dc4fe5efa5bc8942"
+    },
+    {
+      "path": "scripts/generate-locale-files.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6db0e93b4f2357a1b82c10322ba7deaa77970c2a",
+      "size": 3905,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/6db0e93b4f2357a1b82c10322ba7deaa77970c2a"
+    },
+    {
+      "path": "test",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "0b77b4ee072bc486b367e9a76cbfd19e8032a677",
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/trees/0b77b4ee072bc486b367e9a76cbfd19e8032a677"
+    },
+    {
+      "path": "test/fixtures",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "33e3ba0970333f93a66ca5073bacac21a1e8b9d5",
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/trees/33e3ba0970333f93a66ca5073bacac21a1e8b9d5"
+    },
+    {
+      "path": "test/fixtures/mock-app.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "911d7b7cea13daabf3d1372c7e84f247fd4a064e",
+      "size": 3811,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/911d7b7cea13daabf3d1372c7e84f247fd4a064e"
+    },
+    {
+      "path": "test/validate-base-manifest.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c5045392e992538a9040e469206d6e7e059aa08a",
+      "size": 16033,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/c5045392e992538a9040e469206d6e7e059aa08a"
+    },
+    {
+      "path": "test/validate-capabilities.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6a6f7f3603363ee42fe232270ae9e2568fbde061",
+      "size": 3593,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/6a6f7f3603363ee42fe232270ae9e2568fbde061"
+    },
+    {
+      "path": "test/validate-driver-manifest.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "398b68b09ec17b4e98f9feebf0c75f6cea920fb6",
+      "size": 15774,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/398b68b09ec17b4e98f9feebf0c75f6cea920fb6"
+    },
+    {
+      "path": "test/validate-files.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d533e893f536cf86355d0b6e1cef00438f70b546",
+      "size": 7033,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/d533e893f536cf86355d0b6e1cef00438f70b546"
+    },
+    {
+      "path": "webpack.config.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "146a865706471bc25f891acd3cafd134d18ecdec",
+      "size": 539,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/146a865706471bc25f891acd3cafd134d18ecdec"
+    },
+    {
+      "path": "webpack",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "9e634cf93a19ef2803dc2ac90edd4d96d073821e",
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/trees/9e634cf93a19ef2803dc2ac90edd4d96d073821e"
+    },
+    {
+      "path": "webpack/index.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "af0e43a2d54063ac5a0fa52d0ed06da0b8e7aac6",
+      "size": 807411,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/af0e43a2d54063ac5a0fa52d0ed06da0b8e7aac6"
+    },
+    {
+      "path": "webpack/index.js.LICENSE.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bf6cbb7e1326c481d083401ebe448f9f1ec78aa7",
+      "size": 321,
+      "url": "https://api.github.com/repos/athombv/node-homey-lib/git/blobs/bf6cbb7e1326c481d083401ebe448f9f1ec78aa7"
+    }
+  ],
+  "truncated": false
+}

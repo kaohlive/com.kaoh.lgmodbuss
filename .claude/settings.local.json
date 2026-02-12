@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm install:*)",
+      "WebFetch(domain:apps-sdk-v3.developer.homey.app)",
+      "WebFetch(domain:apps.developer.homey.app)",
+      "WebFetch(domain:homey.app)",
+      "WebFetch(domain:raw.githubusercontent.com)",
+      "Bash(gh api:*)",
+      "WebFetch(domain:api.github.com)",
+      "WebFetch(domain:github.com)"
+    ]
+  }
+}
