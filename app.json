@@ -534,18 +534,7 @@
       },
       "pair": [
         {
-          "id": "list_devices",
-          "template": "list_devices",
-          "options": {
-            "singular": true
-          },
-          "navigation": {
-            "next": "add_devices"
-          }
-        },
-        {
-          "id": "add_devices",
-          "template": "add_devices"
+          "id": "configure"
         }
       ],
       "capabilities": [
@@ -826,6 +815,19 @@
               "hint": {
                 "en": "Disable this if your setup does not have a DHW tank. This hides DHW-related controls and sensors from the device.",
                 "nl": "Schakel dit uit als uw installatie geen tapwarmwatertank heeft. Dit verbergt DHW-gerelateerde bediening en sensoren."
+              },
+              "value": true
+            },
+            {
+              "id": "backup_heater_installed",
+              "type": "checkbox",
+              "label": {
+                "en": "Backup Heater Installed",
+                "nl": "Backup verwarmer geïnstalleerd"
+              },
+              "hint": {
+                "en": "Disable this if your setup does not have a backup heater. This hides the backup heater temperature sensor.",
+                "nl": "Schakel dit uit als uw installatie geen backup verwarmer heeft. Dit verbergt de backup verwarmer temperatuursensor."
               },
               "value": true
             }

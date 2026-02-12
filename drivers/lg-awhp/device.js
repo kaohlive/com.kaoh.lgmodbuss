@@ -400,18 +400,20 @@ class LGAWHPDevice extends Homey.Device {
       }
 
       // 10006 (bit 5): DHW heating status
-      const dhwHeating = bits[5] === 1;
-      const prevDhwHeating = this.getCapabilityValue('dhw_heating_status');
-      if (prevDhwHeating !== dhwHeating) {
-        this.setCapabilityValue('dhw_heating_status', dhwHeating).catch(this.error);
-        // Trigger DHW heating started/stopped
-        if (prevDhwHeating !== null && prevDhwHeating !== undefined) {
-          if (dhwHeating) {
-            this.homey.flow.getDeviceTriggerCard('dhw_heating_started')
-              .trigger(this, {}, {}).catch(this.error);
-          } else {
-            this.homey.flow.getDeviceTriggerCard('dhw_heating_stopped')
-              .trigger(this, {}, {}).catch(this.error);
+      if (this.hasCapability('dhw_heating_status')) {
+        const dhwHeating = bits[5] === 1;
+        const prevDhwHeating = this.getCapabilityValue('dhw_heating_status');
+        if (prevDhwHeating !== dhwHeating) {
+          this.setCapabilityValue('dhw_heating_status', dhwHeating).catch(this.error);
+          // Trigger DHW heating started/stopped
+          if (prevDhwHeating !== null && prevDhwHeating !== undefined) {
+            if (dhwHeating) {
+              this.homey.flow.getDeviceTriggerCard('dhw_heating_started')
+                .trigger(this, {}, {}).catch(this.error);
+            } else {
+              this.homey.flow.getDeviceTriggerCard('dhw_heating_stopped')
+                .trigger(this, {}, {}).catch(this.error);
+            }
           }
         }
       }
@@ -486,17 +488,21 @@ class LGAWHPDevice extends Homey.Device {
       }
 
       // 30005 (offset 8): Backup heater outlet temp [÷10 for °C]
-      const backupHeaterRaw = ModbusClient.bufferToInt16(buffer.subarray(8, 10));
-      const backupHeaterTemp = isValidTemp(backupHeaterRaw) ? backupHeaterRaw / 10 : null;
-      if (backupHeaterTemp !== null) {
-        this.setCapabilityValue('measure_temperature.backup_heater', backupHeaterTemp).catch(this.error);
+      if (this.hasCapability('measure_temperature.backup_heater')) {
+        const backupHeaterRaw = ModbusClient.bufferToInt16(buffer.subarray(8, 10));
+        const backupHeaterTemp = isValidTemp(backupHeaterRaw) ? backupHeaterRaw / 10 : null;
+        if (backupHeaterTemp !== null) {
+          this.setCapabilityValue('measure_temperature.backup_heater', backupHeaterTemp).catch(this.error);
+        }
       }
 
       // 30006 (offset 10): DHW tank water temp [÷10 for °C]
-      const dhwRaw = ModbusClient.bufferToInt16(buffer.subarray(10, 12));
-      const dhwTemp = isValidTemp(dhwRaw) ? dhwRaw / 10 : null;
-      if (dhwTemp !== null) {
-        this.setCapabilityValue('measure_temperature.dhw', dhwTemp).catch(this.error);
+      if (this.hasCapability('measure_temperature.dhw')) {
+        const dhwRaw = ModbusClient.bufferToInt16(buffer.subarray(10, 12));
+        const dhwTemp = isValidTemp(dhwRaw) ? dhwRaw / 10 : null;
+        if (dhwTemp !== null) {
+          this.setCapabilityValue('measure_temperature.dhw', dhwTemp).catch(this.error);
+        }
       }
 
       // 30008 (offset 14): Room air temp Circuit 1 [÷10 for °C]
@@ -576,10 +582,12 @@ class LGAWHPDevice extends Homey.Device {
       }
 
       // 00002 (bit 1): Enable/Disable DHW
-      const dhwEnabled = bits[1] === 1;
-      const prevDhwEnabled = this.getCapabilityValue('dhw_enabled');
-      if (prevDhwEnabled !== dhwEnabled) {
-        this.setCapabilityValue('dhw_enabled', dhwEnabled).catch(this.error);
+      if (this.hasCapability('dhw_enabled')) {
+        const dhwEnabled = bits[1] === 1;
+        const prevDhwEnabled = this.getCapabilityValue('dhw_enabled');
+        if (prevDhwEnabled !== dhwEnabled) {
+          this.setCapabilityValue('dhw_enabled', dhwEnabled).catch(this.error);
+        }
       }
 
       // 00003 (bit 2): Silent Mode
@@ -629,10 +637,12 @@ class LGAWHPDevice extends Homey.Device {
       }
 
       // 40009 (offset 16): DHW target temp [÷10 for °C] → target_temperature.dhw (standard sub-cap)
-      const dhwTargetTemp = ModbusClient.bufferToInt16(buffer.subarray(16, 18)) / 10;
-      const prevDhwTarget = this.getCapabilityValue('target_temperature.dhw');
-      if (prevDhwTarget !== dhwTargetTemp) {
-        this.setCapabilityValue('target_temperature.dhw', dhwTargetTemp).catch(this.error);
+      if (this.hasCapability('target_temperature.dhw')) {
+        const dhwTargetTemp = ModbusClient.bufferToInt16(buffer.subarray(16, 18)) / 10;
+        const prevDhwTarget = this.getCapabilityValue('target_temperature.dhw');
+        if (prevDhwTarget !== dhwTargetTemp) {
+          this.setCapabilityValue('target_temperature.dhw', dhwTargetTemp).catch(this.error);
+        }
       }
 
     } catch (error) {
@@ -711,17 +721,21 @@ class LGAWHPDevice extends Homey.Device {
     });
 
     // target_temperature.dhw (standard sub-cap) → Holding register 40009 (address 8), multiply by 10
-    this.registerCapabilityListener('target_temperature.dhw', async (value) => {
-      const registerValue = Math.round(value * 10);
-      await this.writeHoldingRegister(8, registerValue);
-      this.log(`DHW target temperature set to: ${value}°C (register value: ${registerValue})`);
-    });
+    if (this.hasCapability('target_temperature.dhw')) {
+      this.registerCapabilityListener('target_temperature.dhw', async (value) => {
+        const registerValue = Math.round(value * 10);
+        await this.writeHoldingRegister(8, registerValue);
+        this.log(`DHW target temperature set to: ${value}°C (register value: ${registerValue})`);
+      });
+    }
 
     // DHW enable → Coil 00002 (address 1)
-    this.registerCapabilityListener('dhw_enabled', async (value) => {
-      await this.writeCoil(1, value);
-      this.log(`DHW set to: ${value}`);
-    });
+    if (this.hasCapability('dhw_enabled')) {
+      this.registerCapabilityListener('dhw_enabled', async (value) => {
+        await this.writeCoil(1, value);
+        this.log(`DHW set to: ${value}`);
+      });
+    }
 
     // Silent mode → Coil 00003 (address 2)
     this.registerCapabilityListener('silent_mode', async (value) => {
