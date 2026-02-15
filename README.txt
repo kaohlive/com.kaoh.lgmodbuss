@@ -16,3 +16,8 @@ Requirements:
 - LG Air-to-Water Heat Pump with Modbus RTU support
 - RS485-to-TCP serial gateway (like Elfin EW-11 or compatible) connected to the heat pump's Modbus port
 - Homey Pro with local network access to the gateway
+
+Support & feedback:
+
+- Community forum: https://community.homey.app/t/151174
+- GitHub: https://github.com/kaohlive/com.kaoh.lgmodbuss
