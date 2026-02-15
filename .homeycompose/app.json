@@ -1,16 +1,16 @@
 {
   "id": "com.kaoh.lgmodbuss",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "compatibility": ">=12.4.0",
   "sdk": 3,
   "platforms": [
     "local"
   ],
   "name": {
-    "en": "LG Modbuss AWHP"
+    "en": "LG Modbus AWHP"
   },
   "description": {
-    "en": "Control your LG AWHP using local Modbuss protocol."
+    "en": "Control your LG AWHP using local Modbus protocol."
   },
   "brandColor": "#A50034",
   "category": [

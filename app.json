@@ -1,17 +1,17 @@
 {
   "_comment": "This file is generated. Please edit .homeycompose/app.json instead.",
   "id": "com.kaoh.lgmodbuss",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "compatibility": ">=12.4.0",
   "sdk": 3,
   "platforms": [
     "local"
   ],
   "name": {
-    "en": "LG Modbuss AWHP"
+    "en": "LG Modbus AWHP"
   },
   "description": {
-    "en": "Control your LG AWHP using local Modbuss protocol."
+    "en": "Control your LG AWHP using local Modbus protocol."
   },
   "brandColor": "#A50034",
   "category": [
@@ -32,20 +32,16 @@
       {
         "id": "odu_cycle_changed",
         "title": {
-          "en": "Outdoor unit cycle changed",
-          "nl": "Buitenunit cyclus veranderd"
-        },
-        "titleFormatted": {
-          "en": "Outdoor unit cycle changed to [[cycle]]",
-          "nl": "Buitenunit cyclus veranderd naar [[cycle]]"
+          "en": "Outdoor unit status changed",
+          "nl": "Buitenunit status veranderd"
         },
         "tokens": [
           {
             "name": "cycle",
             "type": "string",
             "title": {
-              "en": "Cycle",
-              "nl": "Cyclus"
+              "en": "Status",
+              "nl": "Status"
             }
           }
         ],
@@ -62,10 +58,6 @@
         "title": {
           "en": "Error detected",
           "nl": "Fout gedetecteerd"
-        },
-        "titleFormatted": {
-          "en": "Error detected with code [[error_code]]",
-          "nl": "Fout gedetecteerd met code [[error_code]]"
         },
         "tokens": [
           {
@@ -188,12 +180,12 @@
       {
         "id": "odu_cycle_is",
         "title": {
-          "en": "Outdoor unit cycle is",
-          "nl": "Buitenunit cyclus is"
+          "en": "Outdoor unit status is",
+          "nl": "Buitenunit status is"
         },
         "titleFormatted": {
-          "en": "Outdoor unit !{{is|is not}} [[cycle]]",
-          "nl": "Buitenunit !{{is|is niet}} [[cycle]]"
+          "en": "Outdoor unit status !{{is|is not}} [[cycle]]",
+          "nl": "Buitenunit status !{{is|is niet}} [[cycle]]"
         },
         "args": [
           {
@@ -205,8 +197,8 @@
             "name": "cycle",
             "type": "dropdown",
             "title": {
-              "en": "Cycle",
-              "nl": "Cyclus"
+              "en": "Status",
+              "nl": "Status"
             },
             "values": [
               {
@@ -875,6 +867,7 @@
         "en": "Compressor running status",
         "nl": "Compressor draait status"
       },
+      "icon": "/assets/compressor.svg",
       "getable": true,
       "setable": false,
       "uiComponent": "sensor",
@@ -936,6 +929,7 @@
         "en": "Defrosting status",
         "nl": "Ontdooi status"
       },
+      "icon": "/assets/defrost.svg",
       "getable": true,
       "setable": false,
       "uiComponent": "sensor",
@@ -1023,6 +1017,7 @@
       "min": 0,
       "max": 999,
       "decimals": 0,
+      "icon": "/assets/error_code.svg",
       "getable": true,
       "setable": false,
       "uiComponent": "sensor",
@@ -1038,6 +1033,7 @@
         "en": "Coefficient of Performance (thermal output / electrical input)",
         "nl": "Coëfficiënt van Prestatie (thermisch vermogen / elektrisch vermogen)"
       },
+      "icon": "/assets/cop.svg",
       "getable": true,
       "setable": false,
       "uiComponent": "sensor",
@@ -1053,12 +1049,12 @@
     "odu_cycle": {
       "type": "enum",
       "title": {
-        "en": "ODU Cycle",
-        "nl": "Buitenunit cyclus"
+        "en": "Outdoor Unit Status",
+        "nl": "Buitenunit status"
       },
       "desc": {
-        "en": "Current outdoor unit operation cycle",
-        "nl": "Huidige buitenunit bedrijfscyclus"
+        "en": "What the outdoor unit is currently doing",
+        "nl": "Wat de buitenunit momenteel doet"
       },
       "values": [
         {
@@ -1083,6 +1079,7 @@
           }
         }
       ],
+      "icon": "/assets/outdoor_unit.svg",
       "getable": true,
       "setable": false,
       "uiComponent": "sensor",
@@ -1136,6 +1133,7 @@
         "en": "Water pump running status",
         "nl": "Waterpomp draait status"
       },
+      "icon": "/assets/water_pump.svg",
       "getable": true,
       "setable": false,
       "uiComponent": "sensor",
