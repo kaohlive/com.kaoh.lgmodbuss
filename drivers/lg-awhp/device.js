@@ -678,12 +678,13 @@ class LGAWHPDevice extends Homey.Device {
       this.setCapabilityValue('meter_power', Math.round(accumTotal / 10) / 100).catch(this.error);
 
       // Calculate COP = thermal output / electrical input
+      // When idle (no power draw or no thermal output), set null so Homey shows "--" instead of 0
       const thermalPower = this.getCapabilityValue('measure_power.heat') || 0;
       if (instantPower > 0 && thermalPower > 0) {
         const cop = Math.round((thermalPower / instantPower) * 10) / 10;
         this.setCapabilityValue('measure_cop', Math.min(cop, 15)).catch(this.error);
       } else {
-        this.setCapabilityValue('measure_cop', 0).catch(this.error);
+        this.setCapabilityValue('measure_cop', null).catch(this.error);
       }
 
     } catch (error) {

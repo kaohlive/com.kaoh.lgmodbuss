@@ -8,6 +8,7 @@
     "en": "Defrosting status",
     "nl": "Ontdooi status"
   },
+  "icon": "/assets/defrost.svg",
   "getable": true,
   "setable": false,
   "uiComponent": "sensor",

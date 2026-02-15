@@ -1,12 +1,12 @@
 {
   "type": "enum",
   "title": {
-    "en": "ODU Cycle",
-    "nl": "Buitenunit cyclus"
+    "en": "Outdoor Unit Status",
+    "nl": "Buitenunit status"
   },
   "desc": {
-    "en": "Current outdoor unit operation cycle",
-    "nl": "Huidige buitenunit bedrijfscyclus"
+    "en": "What the outdoor unit is currently doing",
+    "nl": "Wat de buitenunit momenteel doet"
   },
   "values": [
     {
@@ -31,6 +31,7 @@
       }
     }
   ],
+  "icon": "/assets/outdoor_unit.svg",
   "getable": true,
   "setable": false,
   "uiComponent": "sensor",

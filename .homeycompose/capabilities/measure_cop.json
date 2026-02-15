@@ -8,6 +8,7 @@
     "en": "Coefficient of Performance (thermal output / electrical input)",
     "nl": "Coëfficiënt van Prestatie (thermisch vermogen / elektrisch vermogen)"
   },
+  "icon": "/assets/cop.svg",
   "getable": true,
   "setable": false,
   "uiComponent": "sensor",

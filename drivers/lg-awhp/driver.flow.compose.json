@@ -3,20 +3,16 @@
     {
       "id": "odu_cycle_changed",
       "title": {
-        "en": "Outdoor unit cycle changed",
-        "nl": "Buitenunit cyclus veranderd"
-      },
-      "titleFormatted": {
-        "en": "Outdoor unit cycle changed to [[cycle]]",
-        "nl": "Buitenunit cyclus veranderd naar [[cycle]]"
+        "en": "Outdoor unit status changed",
+        "nl": "Buitenunit status veranderd"
       },
       "tokens": [
         {
           "name": "cycle",
           "type": "string",
           "title": {
-            "en": "Cycle",
-            "nl": "Cyclus"
+            "en": "Status",
+            "nl": "Status"
           }
         }
       ],
@@ -27,10 +23,6 @@
       "title": {
         "en": "Error detected",
         "nl": "Fout gedetecteerd"
-      },
-      "titleFormatted": {
-        "en": "Error detected with code [[error_code]]",
-        "nl": "Fout gedetecteerd met code [[error_code]]"
       },
       "tokens": [
         {
@@ -105,20 +97,20 @@
     {
       "id": "odu_cycle_is",
       "title": {
-        "en": "Outdoor unit cycle is",
-        "nl": "Buitenunit cyclus is"
+        "en": "Outdoor unit status is",
+        "nl": "Buitenunit status is"
       },
       "titleFormatted": {
-        "en": "Outdoor unit !{{is|is not}} [[cycle]]",
-        "nl": "Buitenunit !{{is|is niet}} [[cycle]]"
+        "en": "Outdoor unit status !{{is|is not}} [[cycle]]",
+        "nl": "Buitenunit status !{{is|is niet}} [[cycle]]"
       },
       "args": [
         {
           "name": "cycle",
           "type": "dropdown",
           "title": {
-            "en": "Cycle",
-            "nl": "Cyclus"
+            "en": "Status",
+            "nl": "Status"
           },
           "values": [
             { "id": "standby", "label": { "en": "Standby", "nl": "Stand-by" } },

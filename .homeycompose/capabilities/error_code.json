@@ -11,6 +11,7 @@
   "min": 0,
   "max": 999,
   "decimals": 0,
+  "icon": "/assets/error_code.svg",
   "getable": true,
   "setable": false,
   "uiComponent": "sensor",
