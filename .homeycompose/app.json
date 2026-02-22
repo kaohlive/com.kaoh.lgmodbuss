@@ -1,6 +1,6 @@
 {
   "id": "com.kaoh.lgmodbuss",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "compatibility": ">=12.4.0",
   "sdk": 3,
   "platforms": [
@@ -21,6 +21,11 @@
     "small": "/assets/images/small.png",
     "large": "/assets/images/large.png",
     "xlarge": "/assets/images/xlarge.png"
+  },
+  "homeyCommunityTopicId": 151174,
+  "source": "https://github.com/kaohlive/com.kaoh.lgmodbuss",
+  "bugs": {
+    "url": "https://github.com/kaohlive/com.kaoh.lgmodbuss/issues"
   },
   "author": {
     "name": "Vincent Boer",
